@@ -3,8 +3,6 @@ layout: page
 title: Kontakt
 excerpt:
 modified: 2014-09-18T12:00:00
-image:
-  credit:
 ---
 
 Diplom Inform. Benjamin Herbert<br />
