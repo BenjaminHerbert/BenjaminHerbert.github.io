@@ -12,5 +12,7 @@ My personal homepage - http://herbert.cc
 
     sudo docker run --rm -v `pwd`:/content -p 4000:4000 -it homepage jekyll serve --watch
 
-### Point your browser to: [localhost:4000](localhost:4000)
+### Point your browser to:
+
+http://localhost:4000
     
