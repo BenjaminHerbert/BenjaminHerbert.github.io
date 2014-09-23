@@ -35,12 +35,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: Benjamin Herbert
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: mail@herbert.cc
   disqus-shortname:
   twitter: NothingMatress
+  xing: https://www.xing.com/profile/Benjamin_Herbert2
   facebook: #username
-  github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
+  github: BenjaminHerbert
+  stackexchange: https://stackoverflow.com/users/1153530/behe
   linkedin: #username
   instagram: #username
   flickr: #username
