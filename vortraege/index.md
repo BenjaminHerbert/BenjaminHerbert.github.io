@@ -11,7 +11,7 @@ share: true
 ## [DevOps meets BPM - JAX 2014 London](http://jaxlondon.com/2014/sessions/devops-meets-bpm)
 
 Auf der JAX London 2014 werde ich zusammen mit meinem Kollegen
-[Masroor Ahmad](www.masroor.de)[@ITMasroor](https://twitter.com/ITMasroor) einen
+[Masroor Ahmad](www.masroor.de) ([@ITMasroor](https://twitter.com/ITMasroor)) einen
 Vortrag darüber halten, wie wir die Camunda Process-Engine sowie verschiedene
 DevOps-Tools einsetzen um Prozesse mehr und mehr zu automatisieren.
 
