@@ -2,7 +2,13 @@
 layout: page
 ---
 
-Ich bin Softwareentwickler und habe mehr als 10 Jahre Entwicklung allen Bereichen der Softwareentwicklung. Auf freiberuflicher Basis unterstütze ich Sie bei Ihren Projekten. Mein Schwerpunkt liegt im Java-Bereich und ich habe einen besonderen Schwerpunkt bei folgenden Themen:
+Ich bin Softwareentwickler mit einem Schwerpunkt auf dem Java Ökosystem. Ich habe mehr als 10 Jahre Erfahrung in der IT-Branche insbesondere in allen Phasen der Software- und Anwendungsentwicklung wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt. 
+
+Ich bin ein Anhänger der [Software-Craftsmanship-Bewegung](http://manifesto.softwarecraftsmanship.org/#/de) und handle nach dem Motto:
+
+<cite>"How it is done is as important as having it done"</cite> - [@sandromancuso](https://twitter.com/sandromancuso)
+
+Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie insbesondere bei den folgenden Themen unterstützen:
 
 ## Themen:
 * Konzeption, Entwicklung und Test von Softwarelösungen in Java
@@ -10,11 +16,12 @@ Ich bin Softwareentwickler und habe mehr als 10 Jahre Entwicklung allen Bereiche
 * Build Management
 * Release Management
 * Legacy Code / Refactoring
-* Continuous Integration, Continuous Delivery, DevOps
+* Continuous Integration
+* Continuous Delivery
+* DevOps
 * Software Craftsmanship
 
-Ab Januar 2015 bin ich wieder für Projekte verfügbar.
-
+Ab **Januar 2015** bin ich wieder für Projekte verfügbar.
 
 ## Kontakt:
 
@@ -23,7 +30,6 @@ Mailänder Straße 10 - 61<br />
 60598 Frankfurt am Main<br />
 E-Mail: mail AT herbert DOT cc<br />
 Mobil: +49 163 8377921<br />
-
 
 ## Neuste Blogeinträge:
 
