@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "Maven Exec Plugin - Java-Programm ausführen und Argumente übergeben"
+modified:
+categories: blog
+excerpt:
+author: benjamin_herbert
 ---
 
 Maven - Java-Programm ausführen und mehrere Argumente übergeben
