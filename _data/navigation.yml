@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: Start
+  url: /start/
+
+- title: Blog
+  url: /blog/
+  
+- title: Vorträge
+  url: /vortraege/
+
+- title: Kontakt
+  url: /kontakt/
