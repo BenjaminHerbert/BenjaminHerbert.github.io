@@ -1,13 +1,13 @@
 ---
 layout: page
 ---
-
-# &nbsp;
+<p>
 <div class="pull-right">
 
  <img src="images/bh.jpg" alt="Foto von Benjamin Herbert"/>
 
 </div>
+</p>
 
 Ich bin Softwareentwickler mit einem Schwerpunkt auf dem Java Ökosystem. Ich habe mehr als 10 Jahre Erfahrung in der IT-Branche insbesondere in allen Phasen der Software- und Anwendungsentwicklung wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt. 
 
