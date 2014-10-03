@@ -33,7 +33,7 @@ insbesondere bei den folgenden Themen unterstützen:
 * Software Craftsmanship
 
 Ab **Januar 2015** bin ich europaweit für Projekte vor Ort verfügbar. Falls ich
-Sie *remote* oder per Telefon unterstützen kann, kontaktieren Sie mich vorzugsweise per E-Mail.
+Sie *remote* oder per Telefon unterstützen kann, kontaktieren Sie mich - vorzugsweise per E-Mail.
 
 ## Kontakt:
 
