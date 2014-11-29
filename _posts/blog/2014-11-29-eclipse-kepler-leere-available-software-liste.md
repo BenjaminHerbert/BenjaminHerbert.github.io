@@ -21,7 +21,7 @@ noch "Select All" wählen und auf gut Glück installieren. Sinnvoller ist es abe
 natürlich sich auch anschauen zu können, womit man sein System erweitert.
 
 Ursache scheinen zwei fehlerhafte Konfigurationseinträge zu sein, wenn man die Suche abbricht.
-In dem zugehörigen [Bugeintrag bei Eclipse.org](https://bugs.eclipse.org/bugs/show_bug.cgi?id=355955#c16 wird ein Workaround vorstellt, der einwandfrei
+In dem zugehörigen [Bugeintrag bei Eclipse.org](https://bugs.eclipse.org/bugs/show_bug.cgi?id=355955#c16) wird ein Workaround vorstellt, der einwandfrei
 funktioniert.
 
 Man schließt dazu zunächst Eclipse und öffnet die Datei: ```(workspace)/.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml```
