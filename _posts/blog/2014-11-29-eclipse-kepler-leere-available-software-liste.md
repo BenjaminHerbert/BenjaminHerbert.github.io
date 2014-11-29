@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Eclipse Kepler - Workaround für leere Liste mit verfügbarer Software beheben"
+title: "Eclipse Kepler - Workaround für leere Liste bei verfügbarer Software"
 modified:
 categories: blog
 excerpt:
