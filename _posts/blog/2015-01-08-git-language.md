@@ -8,13 +8,13 @@ tags: [git,linux]
 author: benjamin_herbert
 ---
 
-# Kommandozeile - git Nachrichten auf Deutsch anzeigen
+# Kommandozeile - git Nachrichten auf Englisch anzeigen
 
-Auf meinem System kam es nachdem ich meine Systemsprache auf Deutsch eingestellt
-dazu, dass git auf der Kommandozeile bzw. Konsole sämtliche Meldungen ebenfalls
+Auf meinem System kam es - nachdem ich meine Systemsprache auf Deutsch eingestellt
+habe - dazu, dass git auf der Kommandozeile bzw. Konsole sämtliche Meldungen ebenfalls
 auf Deutsch angezeigt hat. Das ist, insbesondere im Falle von Fehlern oder Zuständen,
 die man genauer untersuchen muss, sehr hindernd, da man viel weniger Suchtreffer
-für die jeweiligen Fehlermeldungen erhält.
+für die jeweiligen Fehlermeldungen erhält wenn diese nicht auf Englisch sind.
 
 Um das zu verbessern habe ich in meiner `~/.bashrc` einen alias für git angelegt,
 der die LANG Variable überschreibt.
