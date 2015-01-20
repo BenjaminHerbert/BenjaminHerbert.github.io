@@ -32,8 +32,8 @@ insbesondere bei den folgenden Themen unterstützen:
 * DevOps
 * Software Craftsmanship
 
-Ab **Januar 2015** bin ich europaweit für Projekte vor Ort verfügbar. Falls ich
-Sie *remote* oder per Telefon unterstützen kann, kontaktieren Sie mich - vorzugsweise per E-Mail.
+Für Projekte vor Ort (mit > 80% Auslastung) bin ich ab **Januar 2016** europaweit verfügbar.
+Eventuell kann Ihr Problem ja auch *remote* gelöst werden, kontaktieren Sie mich hierzu gerne - vorzugsweise per E-Mail.
 
 ## Kontakt:
 
