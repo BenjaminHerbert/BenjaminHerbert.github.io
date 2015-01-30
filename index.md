@@ -9,7 +9,7 @@ layout: page
 </div>
 </p>
 
-Ich bin Freiberufler und arbeite als Berater für Softwareentwicklung. Mein Fokus
+Ich bin Berater für professionelle Softwareentwicklung und Automatisierung. Mein Fokus
 liegt dabei auf dem *Java*-Ökosystem. Ich habe mehr als 10 Jahre Erfahrung in der IT-Branche insbesondere in allen Phasen der Software- und Anwendungs- entwicklung
 wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt.
 
@@ -24,8 +24,8 @@ insbesondere bei den folgenden Themen unterstützen:
 ## Themen:
 * Konzeption, Entwicklung und Test von Softwarelösungen in Java
 * TDD / Test-Driven-Development
-* Build Management
-* Release Management
+* Buildmanagement
+* Releasemanagement
 * Legacy Code / Refactoring
 * Continuous Integration
 * Continuous Delivery
