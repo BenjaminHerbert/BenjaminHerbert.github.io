@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Vorträge
+title: Vorträge und Veröffentlichungen
 excerpt:
 modified: 2014-09-18T12:00:00
 image:
@@ -25,4 +25,8 @@ these requirements and helps to deliver software in quality and in time. Let’s
 dive into the world of BPM to see how an integration of various DevOps tools
 inside an open source BPM suite could look like!</cite>
 
-Der Vortrag findet am Dienstag, 14. Oktober 2014 statt.
+Der Vortrag fand am Dienstag, 14. Oktober 2014 statt.
+
+  * Prior Art Search Using International Patent Classification Codes and All-Claims-Queries - Benjamin Herbert and György Szarvas and Iryna Gurevych
+  * Combining query translation techniques to improve cross-language information retrieval - Benjamin Herbert and György Szarvas and Iryna Gurevych
+
