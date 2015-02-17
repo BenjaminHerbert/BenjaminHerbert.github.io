@@ -8,7 +8,9 @@ image:
 share: true
 ---
 
-## [DevOps meets BPM - JAX 2014 London](http://jaxlondon.com/2014/sessions/devops-meets-bpm)
+## Vorträge
+
+###  [DevOps meets BPM - JAX 2014 London](http://jaxlondon.com/2014/sessions/devops-meets-bpm)
 
 Auf der JAX London 2014 werde ich zusammen mit meinem Kollegen
 [Masroor Ahmad](http://www.masroor.de) ([@ITMasroor](https://twitter.com/ITMasroor)) einen
@@ -26,6 +28,8 @@ dive into the world of BPM to see how an integration of various DevOps tools
 inside an open source BPM suite could look like!</cite>
 
 Der Vortrag fand am Dienstag, 14. Oktober 2014 statt.
+
+## Veröffentlichungen
 
   * Prior Art Search Using International Patent Classification Codes and All-Claims-Queries - Benjamin Herbert and György Szarvas and Iryna Gurevych
   * Combining query translation techniques to improve cross-language information retrieval - Benjamin Herbert and György Szarvas and Iryna Gurevych
