@@ -5,9 +5,12 @@
 
 - title: Blog
   url: /blog/
-  
+
 - title: Vorträge
   url: /vortraege/
+
+- title: Portfolio
+  url: /portfolio/
 
 - title: Kontakt
   url: /kontakt/
