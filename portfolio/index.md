@@ -8,7 +8,8 @@ image:
 share: true
 ---
 
-## Portfolio und Projekte
+In Kürze finden Sie hier eine Gesamtübersicht aller meiner Projekte und der eingesetzten Technologien.
+
 
 
 
