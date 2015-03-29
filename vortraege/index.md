@@ -29,6 +29,8 @@ inside an open source BPM suite could look like!</cite>
 
 Der Vortrag fand am Dienstag, 14. Oktober 2014 statt.
 
+[Vortragsfolien - DevOps meets BPM - JAX 2014 - London](http://www.slideshare.net/JAXLondon2014/dev-ops-meets-bpm-herbert-and-masroor)
+
 ## Veröffentlichungen
 
   * Prior Art Search Using International Patent Classification Codes and All-Claims-Queries - Benjamin Herbert and György Szarvas and Iryna Gurevych
