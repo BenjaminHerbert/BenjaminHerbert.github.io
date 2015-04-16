@@ -5,7 +5,7 @@ excerpt:
 modified: 2014-09-18T12:00:00
 ---
 
-Diplom Inform. Benjamin Herbert<br />
+Diplom Informatiker Benjamin Herbert<br />
 Mailänder Straße 10 - 61<br />
 60598 Frankfurt am Main<br />
 E-Mail: mail AT herbert DOT cc<br />
