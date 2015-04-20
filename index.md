@@ -9,7 +9,7 @@ layout: page
 </div>
 </p>
 
-Ich bin Berater für professionelle Softwareentwicklung und Automatisierung. Mein Fokus
+Ich bin Berater für professionelle Softwareentwicklung, Automatisierung sowie Release-Engineering. Mein Fokus
 liegt dabei auf dem *Java*-Ökosystem. Ich habe mehr als 10 Jahre Erfahrung in der IT-Branche insbesondere in allen Phasen der Software- und Anwendungs- entwicklung
 wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt.
 
@@ -31,6 +31,8 @@ insbesondere bei den folgenden Themen unterstützen:
 * Continuous Delivery
 * DevOps
 * Software Craftsmanship
+* Release-Engineering
+* Softwareentwicklung im Java Ökosystem
 
 Für Projekte vor Ort (mit > 80% Auslastung) bin ich ab **Januar 2016** europaweit verfügbar.
 Eventuell kann Ihr Problem ja auch *remote* gelöst werden, kontaktieren Sie mich hierzu gerne - vorzugsweise per E-Mail.
