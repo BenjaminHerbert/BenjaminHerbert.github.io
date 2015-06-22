@@ -6,6 +6,7 @@ description: Softwareentwicklung, Buildmanagement, Releasemanagement
 logo: #site-logo.png
 search: true
 share: true
+site.url: http://herbert.cc
 
 # Jekyll configuration
 
