@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ls - Verzeichnisinhalte auflisten"
+title: "ls - Linux Befehl näher betrachtet"
 modified:
 categories: blog
 excerpt:
@@ -38,7 +38,5 @@ Mit der Option `ls -r` kann man die Reihenfolge umdrehen.
 Ruft man beispielsweise `ls -l /tmp` auf, so wird der Inhalt von /tmp angezeigt.
 Will man stattdessen lediglich die Information über /tmp als Verzeichnis ausgegeben haben, so hilft hier der Parameter -d weiter.
 
-
-## Alias
 
 
