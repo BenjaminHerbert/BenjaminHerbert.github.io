@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jenkins - Änderungen/Changes von Stash mit Projekten verbinden"
+title: "Git-Commit-Ids in Jenkins mit Atlassian Stash verlinken"
 modified:
 categories: blog
 excerpt:
