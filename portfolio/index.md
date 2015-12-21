@@ -1,10 +1,7 @@
 ---
 layout: page
 title: Portfolio und Projekte
-excerpt:
-modified: 2015-03-22T22:00:00
-image:
-  credit:
+modified: 2015-12-21T09:00:00
 share: true
 ---
 
@@ -49,7 +46,9 @@ Java SE, Java EE, JPA, Hibernate, Swing, Hessian, WebLogic, Tomcat, HTML, Veloci
 
 Forschungsthema: „Crosslingual Aspects in Semantic Information Retrieval“
 An der TU Darmstadt arbeitete Herr Herbert am Forschungs- und Entwicklungsprojekt SIGMUND. Er koordinierte die Zusammenarbeit mit den Partnerfirmen und war maßgeblich an der Entwicklung und Planung der Software-Komponenten beteiligt. Darüber hinaus hatte er Verantwortung für die im Rahmen der Forschungs- und Entwicklungsarbeit erstellten Komponenten. Zusätzlich übernahm er Verantwortung in der IT-Administration der Arbeitsgruppe.
+
 Im Rahmen der Forschungstätigkeit hielt er mehrere Vorträge im Bereich multilingualer Suchverfahren.
+
 * Forschungs- und Entwicklungsarbeit im Bereich semantischer Suchverfahren/ Information Retrieval im BMBF Forschungsprojekt SIGMUND
 * Konzeption und Implementierung von Softwarekomponenten im Apache UIMA Framework (Java, JUnit, Spring, Lucene, Groovy, Maven, Subversion)
 * Anbindung von Drittsystemen mit Webservices (SOAP, Axis2, Java)
@@ -71,8 +70,11 @@ Im Rahmen der Forschungstätigkeit hielt er mehrere Vorträge im Bereich multili
 Java, Java EE 5, Groovy, XML, Lucene, Terrier, Web services, Apache Axis, SOAP, Ubuntu Linux, Debian Linux, Subversion, Maven, Artifactory, Jenkins
 
 # Beratung/Implementierung Suchfunktion - REXVINI (08/2010 - 11/2010)
+
 Herr Herbert arbeitete als Experte für Suchtechnologien in der Planung und Entwicklung der Suchfunktion für eine Internet-Weindatenbank. 
+
 Seine Arbeit umfasste:
+
 * Durchführung einer Anforderungsanalyse
 * Konzeption und Umsetzung einer Suchfunktion für eine Webapplikation (PHP, Zend Lucene, MySQL, Symfony)
 * Implementierung von UI Prototypen für die Suchmaske (HTML, CSS)
@@ -82,7 +84,9 @@ Seine Arbeit umfasste:
 Symfony, PHP, HTML, CSS, Lucene, Zend, Debian Linux, MySQL, Subversion, Eclipse
 
 # Softwareentwickler - Vertragswesen (09/2007 - 05/2008)
+
 Als Entwickler bei der Firma SealBase entwickelte Herr Herbert mehrere Module der SealBase Vertragsmanagementlösung. Seine Aufgaben waren:
+
 * Entwicklung, Bugfixing und Test eines Softwareprodukts für Vertragsmanagement (C#, MS SQL, Oracle, ASP.NET)
 * Implementierung von Proof-of-Concepts (ASP.NET, Oracle)
 
@@ -91,8 +95,11 @@ Als Entwickler bei der Firma SealBase entwickelte Herr Herbert mehrere Module de
 XHTML, CSS, JavaScript, C#, ADO.NET, ASP.NET, AJAX, Oracle XE 10g, Windows, MS SQL, SQL Developer, Subversion
 
 # Berater/Softwareentwicklung - Darmstadt (10/2005 - 03/2009)
-Als Softwareentwickler war Herr Herbert für die Entwicklung und die Pflege der eines Softwareprodukts zuständig und an Planung und Umsetzung mehrerer Kundenprojekte beteiligt. 
+
+Als Softwareentwickler war Herr Herbert für die Entwicklung und die Pflege der eines Softwareprodukts zuständig und an Planung und Umsetzung mehrerer Kundenprojekte beteiligt.
+
 Seine Aufgaben waren:
+
 * Entwicklung und Pflege eines Softwareprodukts zum Risikomanagement (VB6, MS SQL)
 * Weiterentwicklung der Reports (Crystal Reports)
 * Schulung und Einarbeitung neuer Mitarbeiter
