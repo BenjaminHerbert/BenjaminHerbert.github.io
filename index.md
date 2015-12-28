@@ -42,8 +42,7 @@ Eventuell kann Ihr Problem ja auch *remote* gelöst werden, kontaktieren Sie mic
 Dipl. Inform. Benjamin Herbert<br />
 Mailänder Straße 10 - 61<br />
 60598 Frankfurt am Main<br />
-E-Mail: <a href="&#109;&#097;&#105;&#108;&#064;&#104;&#101;&#114;&#098;&#101;&#114;&#116;&#046;&#099;&#099;?Subject=Anfrage" target="">
-Benjamin (AT) Herbert (PUNKT) CC</a> <br />
+E-Mail: mail (AT) herbert (PUNKT) CC<br />
 Mobil: +49 163 8377921<br />
 
 ## Neuste Blogeinträge:
