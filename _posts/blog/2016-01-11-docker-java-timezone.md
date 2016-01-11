@@ -16,13 +16,14 @@ Docker Containern eine eigene "interne" Zeitzone haben und nicht die des Host-OS
 
 ```
 > date
-Mon Jan 11 16:32:51 CET 2016
+Mon Jan 11 19:22:38 CET 2016
+
 ```
 
 
 ```
 > docker run --rm busybox date
-Mon Jan 11 15:32:30 UTC 2016
+Mon Jan 11 18:22:54 UTC 2016
 ```
 
 
@@ -34,7 +35,7 @@ Der Aufruf wäre dann für das obige Beispiel:
 
 ```
 > docker run --rm -v /etc/localtime:/etc/localtime:ro busybox date
-Mon Jan 11 16:33:02 CET 2016
+Mon Jan 11 19:23:08 CET 2016
 ```
 
 Siehe hierzu auch: https://github.com/docker/docker/issues/3359
