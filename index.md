@@ -1,13 +1,11 @@
 ---
 layout: page
 ---
-<p>
 <div class="pull-right">
 
  <img src="images/bh.jpg" alt="Foto von Benjamin Herbert"/>
 
 </div>
-</p>
 
 Ich bin Berater für professionelle Softwareentwicklung, Automatisierung sowie Release-Engineering. Mein Fokus
 liegt dabei auf dem *Java*-Ökosystem. Ich habe mehr als 10 Jahre Erfahrung in der IT-Branche insbesondere in allen Phasen der Software- und Anwendungs- entwicklung
