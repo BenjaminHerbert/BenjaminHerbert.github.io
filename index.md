@@ -33,7 +33,7 @@ insbesondere bei den folgenden Themen unterstützen:
 * Release-Engineering
 * Softwareentwicklung im Java Ökosystem
 
-Für Projekte vor Ort (mit > 80% Auslastung) bin ich ab **Januar 2016** europaweit verfügbar.
+Für Projekte vor Ort (mit > 80% Auslastung) bin ich ab **Januar 2017** europaweit verfügbar, bevorzugt im Raum Frankfurt bzw. Rhein-Main. 
 Eventuell kann Ihr Problem ja auch *remote* gelöst werden, kontaktieren Sie mich hierzu gerne - vorzugsweise per E-Mail.
 
 ## Kontakt:
