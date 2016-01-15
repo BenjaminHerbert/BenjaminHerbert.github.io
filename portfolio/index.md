@@ -5,6 +5,17 @@ modified: 2015-12-21T09:00:00
 share: true
 ---
 
+# DevOps-Engineer - Finanzdienstleistungen (05/2014 - heute)
+
+Herr Herbert arbeitet im Team Integration eines Finanzdienstleisters als DevOps-Engineer an der Weiterentwicklung der Build- und Deploymentinfrastruktur und der dort verwendeten Tools und Plugins. Er ist Ansprechpartner bei Fragen rund um Jenkins sowie Maven und arbeitet in verschiedenen Task-Forces mit.
+
+Herr Herbert setzte eine Container-basierte Build-Umgebung mit Hilfe von Docker bzw. Rocket sowie CoreOS auf und führte verteilte Builds ein, um eine schnellere Auslieferung der im Haus entwickelten Software zu ermöglichen.
+
+Er arbeitete ein angepasstes Continuous-Integration Modell aus, was den im Haus tätigen Software-Entwicklern ein schnelles Feedback über ihre Arbeit gibt und die bessere Integration der Komponenten in die komplexe Gesamt-Sofware gewährleistet.
+
+## Technologien/Methoden:
+Jenkins, Java, Sonatype Nexus, Maven, ant, Eclipse, IntelliJ IDEA, Docker, IPv6, Rocket, Fedora, CentOS, Atlassian JIRA+Confluence+Stash, SonarQube
+
 # Software Engineering - Tourismus (12/2011 - 04/2014)
 
 Als Java-Entwickler bei einem Reservierungs- und Distributionsdienstleister für
