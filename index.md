@@ -4,9 +4,7 @@ title: Vorstellung
 tags: [devops,java,freelancer,freiberufler,it-beratung,softwareentwicklung,software,consulting,continuous integration,tdd]
 ---
 
-Ich bin Berater für professionelle Softwareentwicklung, Automatisierung sowie Release-Engineering. Mein Fokus
-liegt dabei auf dem *Java*-Ökosystem. Ich habe mehr als 10 Jahre Erfahrung in der IT-Branche insbesondere in allen Phasen der Software- und Anwendungs- entwicklung
-wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt.
+Ich bin Berater für professionelle Softwareentwicklung, Automatisierung sowie Release-Engineering. Mein Fokus liegt dabei auf dem *Java*-Ökosystem. Ich habe mehr als 10 Jahre Erfahrung in der IT-Branche insbesondere in allen Phasen der Software- und Anwendungs- entwicklung wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt.
 
 <div>
  <img src="images/bh.jpg" alt="Foto von Benjamin Herbert"/>
@@ -17,8 +15,7 @@ handle ich nach dem Motto:
 
 <cite>"How it is done is as important as having it done"</cite> - [@sandromancuso](https://twitter.com/sandromancuso)
 
-Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie
-insbesondere bei den folgenden Themen unterstützen:
+Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie insbesondere bei den folgenden Themen unterstützen:
 
 ## Themen:
 * Konzeption, Entwicklung und Test von Softwarelösungen in Java
