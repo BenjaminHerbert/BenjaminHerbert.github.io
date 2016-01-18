@@ -26,7 +26,9 @@ Im Feld *Host* muss, z.B. localhost ausgefüllt werden.
 mvnDebug ist nur ein Skript, welches folgende Optionsvariablen vor einen normalen
 mvn-Aufruf schreibt:
 
+{% highlight text %}
     MAVEN_DEBUG_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"
+{% endhighlight %}
 
 Nicht vergessen einen Breakpoint im Plugin-Quelltext zu setzen und entsprechende
 'goal' bzw. die 'phase' aufrufen.
