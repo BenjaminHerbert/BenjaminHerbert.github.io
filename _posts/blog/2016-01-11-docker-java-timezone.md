@@ -26,7 +26,7 @@ Das Kommando im Container ergibt aber:
 Mon Jan 11 18:22:54 UTC 2016
 {% endhighlight %}
 
-Wie man sieht, ist der Unterschied eine Stunde, im Container ist anscheinend UTC als ~~Zeitzone~~ Standard konfiguriert (Coordinated Universal Time). Auf dem Host jedoch CET (Central European Time) als Zeitzone.
+Wie man sieht, ist der Unterschied eine Stunde, im Container ist anscheinend UTC als <strike>Zeitzone</strike> Standard konfiguriert (Coordinated Universal Time). Auf dem Host jedoch CET (Central European Time) als Zeitzone.
 
 In Linux-Containern lässt sich das relativ leicht beheben indem man die Datei `/etc/localtime` aus dem Host in den Container mounted. Das gleicht die Zeitzone des Containers an die des Hosts an. Da der Container nicht 
 auf die Datei schreiben können soll, fügt man `:ro` hinter den Aufruf an: `-v /etc/localtime:/etc/localtime:ro`. (Das `ro` steht für *read-only*)
