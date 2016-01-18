@@ -54,3 +54,8 @@ Es gibt jedoch auch einen einfacheren Weg, denn die Umgebungsvariable TZ wird eb
 
 Das hat für unseren Anwendungsfall ausgereicht um innerhalb der JVM die korrekte Default TimeZone zu erhalten.
 
+{% highlight text %}
+code goes here
+{% endhighlight %}
+
+
