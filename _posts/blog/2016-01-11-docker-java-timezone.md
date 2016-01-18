@@ -14,15 +14,17 @@ author: benjamin_herbert
 Vor einiger Zeit hatte ich den Fall, dass innerhalb eines Docker-Containers die falsche Zeitzone eingestellt war. Das hat damit zu tun, dass
 Docker Containern eine eigene "interne" Zeitzone haben und nicht die des Host-OS nehmen.
 
-
-    > date
-    Mon Jan 11 19:22:38 CET 2016
+{% highlight console %}
+> date
+Mon Jan 11 19:22:38 CET 2016
+{% endhighlight %}
 
 Das Kommando im Container ergibt aber:
 
-
-    > docker run --rm busybox date
-    Mon Jan 11 18:22:54 UTC 2016
+{% highlight console %}
+> docker run --rm busybox date
+Mon Jan 11 18:22:54 UTC 2016
+{% endhighlight %}
 
 Wie man sieht, ist der Unterschied eine Stunde, im Container ist anscheinend UTC als ~~Zeitzone~~ Standard konfiguriert (Coordinated Universal Time). Auf dem Host jedoch CET (Central European Time) als Zeitzone.
 
@@ -30,9 +32,10 @@ In Linux-Containern lässt sich das relativ leicht beheben indem man die Datei `
 auf die Datei schreiben können soll, fügt man `:ro` hinter den Aufruf an: `-v /etc/localtime:/etc/localtime:ro`. (Das `ro` steht für *read-only*)
 Der Aufruf wäre dann für das obige Beispiel:
 
-
-    > docker run --rm -v /etc/localtime:/etc/localtime:ro busybox date
-    Mon Jan 11 19:23:08 CET 2016
+{% highlight console %}
+> docker run --rm -v /etc/localtime:/etc/localtime:ro busybox date
+Mon Jan 11 19:23:08 CET 2016
+{% endhighlight %}
 
 Siehe hierzu auch: https://github.com/docker/docker/issues/3359
 
@@ -48,14 +51,8 @@ Der offizielle Lösungsweg ist, ein JVM-Argument `user.timezone` mitzugeben und 
 
 Es gibt jedoch auch einen einfacheren Weg, denn die Umgebungsvariable TZ wird ebenfalls ausgewertet. Diese kann einfach beim Start eines Containers mitgegegeben werden:
 
-
-    docker run -e TZ="Europe/Berlin" # ...
-
-
-Das hat für unseren Anwendungsfall ausgereicht um innerhalb der JVM die korrekte Default TimeZone zu erhalten.
-
-{% highlight text %}
-code goes here
+{% highlight console %}
+docker run -e TZ="Europe/Berlin" # ...
 {% endhighlight %}
 
-
+Das hat für unseren Anwendungsfall ausgereicht um innerhalb der JVM die korrekte Default TimeZone zu erhalten.
