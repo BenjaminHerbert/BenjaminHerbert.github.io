@@ -13,15 +13,16 @@ Herr Herbert arbeitet im Team Integration eines Finanzdienstleisters als DevOps-
 * Durchführung von Builds und komplexen Deployments
 * Verantwortung für Releasewechsel in Produktion
 * Schnittstellen zu anderen Aufgabengebieten (Anwendungsentwicklung, Entwickler von Datenbankskripten, Serveradmins, Datenbankadministratoren, Qualitätssicherung)
-* Weiterentwicklung und Optimierung der eigenen Tools
-* Koordination, Betreuung und Übernahme von Upgrades (Java, Git, Tomcat etc.), Umgebungsumbauten
+* Weiterentwicklung und Optimierung der eigenen Tools (Maven-Plugins)
+* Administration der Jenkins-basierten Automatisierungs-Umgebung
+* Koordination, Betreuung und Übernahme von Upgrades (Java, Git, Tomcat etc.)
 
 Herr Herbert setzte eine Container-basierte Build-Umgebung mit Hilfe von Docker bzw. Rocket sowie CoreOS auf und führte verteilte Builds ein, um eine schnellere Auslieferung der im Haus entwickelten Software zu ermöglichen.
 
 Er arbeitete ein angepasstes Continuous-Integration Modell aus, was den im Haus tätigen Software-Entwicklern ein schnelles Feedback über ihre Arbeit gibt und die bessere Integration der Komponenten in die komplexe Gesamt-Sofware gewährleistet.
 
 ## Technologien/Methoden:
-Jenkins, Java, Sonatype Nexus, Maven, ant, Eclipse, IntelliJ IDEA, Docker, IPv6, Rocket, Fedora, CentOS, Atlassian JIRA+Confluence+Stash, SonarQube, Git
+Jenkins, Java, Sonatype Nexus, Maven, ant, Eclipse, IntelliJ IDEA, Docker, IPv6, rkt (Rocket), Fedora, CentOS, Atlassian JIRA + Confluence + Stash/Bitbucket, SonarQube, Git, Camunda BPM
 
 # Software Engineering - Tourismus (12/2011 - 04/2014)
 
