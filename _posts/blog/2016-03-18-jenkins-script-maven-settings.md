@@ -35,42 +35,7 @@ Will man _bereits bestehende_ Jobs ändern, so dass eine in Maven konfigurierte 
 
 Hat man eine `settingsConfigId`, so kann man mit folgendem Groovy-Skript den `SettingsProvider` finden.
 
-```groovy
-import hudson.maven.*
-import hudson.plugins.git.*
-import org.jenkinsci.lib.configprovider.model.Config
-import org.jenkinsci.plugins.configfiles.maven.job.MvnGlobalSettingsProvider
-  
-// the settings id can be found by looking into the 
-def settingsConfigId = '82f50619-c969-41f4-9fee-cc9c5e7da88e'
-def  c = Config.getByIdOrNull(settingsConfigId);
-  
-assert c != null
-
-def newProvider = new MvnGlobalSettingsProvider(settingsConfigId)
-assert newProvider instanceof org.jenkinsci.plugins.configfiles.maven.job.MvnGlobalSettingsProvider
-  
-// selection of jobs (Maven & Git and no credentials
-def jobs = Jenkins.instance.allItems.findAll{it instanceof MavenModuleSet}.findAll{ it.name.contains('maven-config-test')}
-jobs.each {
-  job -> 
-   println "$job.name $job.globalSettings"
-   job.setGlobalSettings(newProvider)
-  
-  job.prebuilders.findAll{it instanceof hudson.tasks.Maven}.each {
-        mvnTask -> 
-          println "   " + mvnTask.globalSettings
-    	  if (mvnTask.globalSettings instanceof org.jenkinsci.plugins.configfiles.maven.job.MvnGlobalSettingsProvider) { 
-              println "        --> " + mvnTask.globalSettings
-  	      }
-          else {
-              println "        --> REPLACING SETTINGS"
-              mvnTask.setGlobalSettings(newProvider)
-          }
-  }
-}
-
-```
+{% gist BenjaminHerbert/16aaf0aed1a5fce4ec42 %}
 
 Was man macht, ist sich anhand der ID eine neue MvnGlobalSettingsProvider-Instanz zu erzeugen. Dann setzt man mit der Methode [`http://javadoc.jenkins-ci.org/hudson/maven/MavenModuleSet.html#setGlobalSettings(jenkins.mvn.GlobalSettingsProvider)`](http://javadoc.jenkins-ci.org/hudson/maven/MavenModuleSet.html#setGlobalSettings(jenkins.mvn.GlobalSettingsProvider)) den jeweiligen `GlobalSettingsProvider` auf die erzeugte Instanz.
 
