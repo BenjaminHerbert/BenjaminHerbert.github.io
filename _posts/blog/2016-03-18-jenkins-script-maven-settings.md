@@ -72,7 +72,7 @@ jobs.each {
 
 ```
 
-Was man macht, ist sich anhand der ID eine neue MvnGlobalSettingsProvider-Instanz zu erzeugen. Dann setzt man mit der Methode [`http://javadoc.jenkins-ci.org/hudson/maven/MavenModuleSet.html#setGlobalSettings(jenkins.mvn.GlobalSettingsProvider)`](http://javadoc.jenkins-ci.org/hudson/maven/MavenModuleSet.html#setGlobalSettings\(jenkins.mvn.GlobalSettingsProvider\)) den jeweiligen `GlobalSettingsProvider` auf die erzeugte Instanz.
+Was man macht, ist sich anhand der ID eine neue MvnGlobalSettingsProvider-Instanz zu erzeugen. Dann setzt man mit der Methode [`http://javadoc.jenkins-ci.org/hudson/maven/MavenModuleSet.html#setGlobalSettings(jenkins.mvn.GlobalSettingsProvider)`](http://javadoc.jenkins-ci.org/hudson/maven/MavenModuleSet.html#setGlobalSettings(jenkins.mvn.GlobalSettingsProvider)) den jeweiligen `GlobalSettingsProvider` auf die erzeugte Instanz.
 
 `MavenModuleSet`s stellen die üblichen Jenkins-Maven-Projekte dar. Diese können auch sogenannte PreBuilder haben. Die innere Schleife zeigt, wie man über diese iteriert und falls es sich hier auch um `Maven`-Tasks handelt, ändert.
 
