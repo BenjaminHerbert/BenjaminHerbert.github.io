@@ -12,7 +12,7 @@ author: benjamin_herbert
 ## Mylyn Builds - Integration von Jenkins
 
 Eclipse bietet mit Mylyn ein ganzes Framework rund um Application Lifecycle
-Management (ALM). Mit dem Connector 'Hudson/Jenkins Mylyn Builds Connector'
+Management (ALM). Mit dem Connector ['Hudson/Jenkins Mylyn Builds Connector'](https://marketplace.eclipse.org/content/hudsonjenkins-mylyn-builds-connector)
 kann man sich auch mit Jenkins bzw. Hudson verbinden und diese in einem View
 'Builds' anzeigen lassen. Dabei kann man auswählen, welche Jobs man angezeigt 
 bekommt.
