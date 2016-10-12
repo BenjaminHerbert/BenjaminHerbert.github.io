@@ -23,7 +23,7 @@ Das hat die üblichen Vorteile von Configuration as Code, darauf gehe ich in ein
 
 In einem Projekt hatte ich Job DSL Code, der sich häufig wiederholende Einträge enthielt, ungefähr wie in diesem Beispiel gezeigt:
 
-{% gist BenjaminHerbert/71aca1fe3a1fcdb6de7bc390453b317c#file-job-dsl-reuse-1-groovy %}
+{% gist BenjaminHerbert/71aca1fe3a1fcdb6de7bc390453b317c job-dsl-reuse-1.groovy %}
 
 Mehrfach die gleichen Zeilen mit leicht veränderten "Goals"... unschön.
 
@@ -41,7 +41,7 @@ Normalerweise ist das _delegate_ auf den sogenannten ["owner"](http://groovy-lan
 
 Will man also den Code aus der Job DSL extrahieren, so muss man darauf achten, dass die Methoden nach wie vor auf dem richtigen Delegate ausgeführt werden. Man muss das Delegate an die extrahierte Methode übergeben um auf die Job DSL Methoden zugreifen zu können. In der Methode nutzt man dann das Groovy [`.with` Konstrukt](http://groovy-lang.org/style-guide.html#_using_with_for_repeated_operations_on_the_same_bean). Das heißt, man muss beim extrahieren einer Methode das _delegate_ als Parameter übergeben: 
 
-{% gist BenjaminHerbert/71aca1fe3a1fcdb6de7bc390453b317c#file-job-dsl-reuse-2-groovy %}
+{% gist BenjaminHerbert/71aca1fe3a1fcdb6de7bc390453b317c job-dsl-reuse-2.groovy %}
 
 Hier habe ich die Funktion `addMavenGoal` extrahiert, die einen Parameter `context` hat. Dann wird der extrahierte Code innerhalb von `context.with {}` mit dem passenden Delegate ausgeführt. 
 
@@ -51,7 +51,7 @@ In Zeile 12 und 13 sieht man den Funktionsaufruf und die Übergabe des `delegate
 
 Der Vollständigkeit halber sollte natürlich noch die Maven-Version ausgelagert werden, da man dann bei einer Änderung der Maven-Version nur eine Stelle im Code verändern muss.
 
-{% gist BenjaminHerbert/71aca1fe3a1fcdb6de7bc390453b317c#file-job-dsl-reuse-3-groovy %}
+{% gist BenjaminHerbert/71aca1fe3a1fcdb6de7bc390453b317c job-dsl-reuse-3.groovy %}
 
 
 
