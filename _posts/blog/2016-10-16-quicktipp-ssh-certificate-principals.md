@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Open SSH Zertifikat Principals ansehen"
+title: "Open SSH Zertifikate - Informationen anzeigen"
 modified:
 tags: [linux, openssh, security]
 categories: blog
@@ -11,7 +11,7 @@ author: benjamin_herbert
 
 ## Kurzbeschreibung
 
-Mit _OpenSSH Certificate Authentication__ hat man eine handhabbare Lösung, mit der
+Mit _OpenSSH Certificate Authentication_ hat man eine handhabbare Lösung, mit der
 man nicht mehr Schlüssel/Keys zwischen Systemen herum kopieren muss. Stattdessen
 signiert die Certificate Authority die signierten Client-Zertifikate.
 
