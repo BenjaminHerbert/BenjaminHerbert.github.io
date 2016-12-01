@@ -30,6 +30,7 @@ Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie insb
 * DevOps
 * Software Craftsmanship
 * Release-Engineering
+* Build-Engineering
 * Softwareentwicklung im Java Ökosystem
 * Automatisierung von Build und Deployment
 * Betrieb und Aufbau von Build-Infrastruktur
