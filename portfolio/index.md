@@ -29,7 +29,7 @@ Dabei galt der Hauptaugenmerk den Prinzipien Configuration as Code sowie Continu
 ## Technologien/Methoden:
 Linux-Container (rkt und Docker), Jenkins 2.x, Jenkins Pipeline, Jenkins JOB DSL, Groovy, CoreOS, fleet, Fedora, CentOS, systemd, Swarm, goss, etcd, Sonatype Nexus OSS, Git, Sonarqube
 
-# DevOps Engineer - Build und Deployment - Finanzdienstleistungen (05/2014 - 12/2015)
+# DevOps Engineer - Software-Integration - Finanzdienstleistungen (05/2014 - 12/2015)
 
 Herr Herbert arbeitete im Team Integration eines Finanzdienstleisters als DevOps-Engineer an der Weiterentwicklung der Build- und Deploymentinfrastruktur und der dort verwendeten Tools und Plugins. Er war Ansprechpartner bei Fragen rund um Jenkins sowie Maven und wirkte in verschiedenen Task-Forces mit.
 
