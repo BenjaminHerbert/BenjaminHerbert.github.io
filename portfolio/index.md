@@ -5,34 +5,29 @@ modified: 2016-12-03T09:00:00
 share: true
 ---
 
-
 # DevOps Engineer - Build und Deployment - Finanzdienstleistungen (01/2016 - 12/2016)
 
-Herr Herbert arbeitete als DevOps Engineer im Projekt und war mit der Migration der
-Build- und Deployment-Infrastruktur betraut. Die Systeme und Anwendungen wurden auf
-Linux-Container migriert. Für den Infrastrukturcode wurden Continuous Integration
-sowie Continuous Delivery Pipelines aufgebaut um die Anwendungen mit minimaler Downtime
-zu aktualisieren oder im Falle eines Failovers auf andere Lokationen zu transferieren.#
-Dabei galt der Hauptaugenmerk den Prinzipien Configuration as Code sowie Continuous Delivery
-um eine Reproduzierbarkeit der Build- und Deployment-Infrastruktur jederzeit zu gewährleisten
-und diese Systeme mit hoher Qualität zu betreiben.
+Herr Herbert arbeitete als DevOps Engineer in einem IT-Migrationsprojekt. Er war mit der Migration der Build- und Deployment-Infrastruktur auf Linux-Container betraut.
+
+Für den Infrastrukturcode wurden Continuous Integration sowie Continuous Delivery Pipelines aufgebaut um die Anwendungen mit minimaler Downtime zu aktualisieren oder im Falle eines Failovers auf andere Lokationen zu transferieren.
+
+Dabei galt der Hauptaugenmerk den Prinzipien Configuration as Code sowie Continuous Delivery um eine Reproduzierbarkeit der Build- und Deployment-Infrastruktur jederzeit zu gewährleisten und diese Systeme mit hoher Qualität stabil zu betreiben sowie langfristige Wartbarkeit der Konfiguration zu ermöglichen.
 
 * Konzeption und Umsetzung einer kontinuierlichen Build- und Deployment-Umgebung für Container-basierte Services
-* Konzeption und Entwicklung einer Deployment-Pipeline für Services
-* Migration von Java-basierten Anwendungen auf rkt Container
+* Entwicklung und Umsetzung eines Konzepts für Deployment-Pipelines für Services
+* Enge Zusammenarbeit als Schnittstelle zwischen Anwendungsentwicklung und Systemadministration
+* Umzug und Anpassung von auf VMs laufenden Diensten in Linux-Container
+* Migration von Java-basierten Anwendungen auf Container
 * Migration von Docker-Containern auf rkt
-* Implementierung eines verteilten und robusten Build-Systems
-* Konzeption und Implementierung eines automatisierten Deployment-Systems für Container
-* Minimierung der Build-Dauer unterschiedlicher Software-Komponenten
-* Umzug und Anpassung von auf VMs laufenden Diensten in rkt Linux-Container
-* Erarbeitung von Code-Guidelines für die Java-Anwendungsentwicklung
-* Entwicklung einer Build-Pipeline für den Bau von Containern mit Hilfe von dgr/Rocket
-* Konzeption und Entwicklung eines Update-Mechanismus für Continuous Delivery von Diensten mit Hilfe der fleet API
+* Implementierung einer verteilten und robusten Build-Architektur
+* Erarbeitung von einheitlichen Code-Richtlinien für die Java-Anwendungsentwicklung
+* Konzeption eines Delivery-Verfahrens für Linux-Container basierte Services
 * Verbesserung der Build-Dauer durch Optimierung der Maven-Builds
-* Verbesserung des Deployment-Verfahrens
+* Optimierung der bestehenden Deployment-Verfahren
+* Automatisierung von Build und Deployment
 
 ## Technologien/Methoden:
-Container: rkt und Docker, Jenkins 2.x, Jenkins Pipeline, Jenkins JOB DSL, Groovy, CoreOS, fleet, rkt, Fedora, CentOS, systemd , Rocket Container, Swarm, goss, etcd, Sonatype Nexus OSS, Git
+Linux-Container (rkt und Docker), Jenkins 2.x, Jenkins Pipeline, Jenkins JOB DSL, Groovy, CoreOS, fleet, Fedora, CentOS, systemd, Swarm, goss, etcd, Sonatype Nexus OSS, Git, Sonarqube
 
 # DevOps Engineer - Build und Deployment - Finanzdienstleistungen (05/2014 - 12/2015)
 
