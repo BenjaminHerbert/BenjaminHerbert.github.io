@@ -6,6 +6,8 @@ tags: [devops,java,freelancer,freiberufler,it-beratung,softwareentwicklung,softw
 
 Berater für zeitgemäße, professionelle Softwareentwicklung, Automatisierung sowie Release-Engineering. 
 
+Als DevOps Engineer liegt es mir am Herzen die "Durchlaufzeit" [Lead Time](https://en.wikipedia.org/wiki/Lead_time) zu verkürzen, so dass Änderungen von Software schnell den gewünschten Nutzen bringen und produktiv eingesetzt werden können.
+
 Ich habe mehr als 11 Jahre Erfahrung in der IT-Branche in allen Phasen der Software- und Anwendungs- entwicklung wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt. Mein Fokus liegt dabei auf dem *Java*-Ökosystem.
 
 <div>
