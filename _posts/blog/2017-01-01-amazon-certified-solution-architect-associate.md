@@ -13,3 +13,6 @@ author: benjamin_herbert
 
 Seit gestern bin ich offiziell zertifizierter **AWS Certified Solutions Architect – Associate**.
 
+<div>
+ <img src="asserts/Solutions-Architect-Associate.png" alt="AWS Certified Solutions Architect – Associate"/>
+</div>
