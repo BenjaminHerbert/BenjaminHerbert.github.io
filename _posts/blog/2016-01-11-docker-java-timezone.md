@@ -51,7 +51,7 @@ Der offizielle Lösungsweg ist, ein JVM-Argument `user.timezone` mitzugeben und 
 Es gibt jedoch auch einen einfacheren Weg, denn die Umgebungsvariable TZ wird ebenfalls ausgewertet. Diese kann einfach beim Start eines Containers mitgegegeben werden:
 
 {% highlight console %}
-docker run -e TZ="Europe/Berlin" ...
+docker run -e TZ="Europe/Berlin" ... 
 {% endhighlight %}
 
 Das hat für unseren Anwendungsfall ausgereicht um innerhalb der JVM die korrekte Default TimeZone zu erhalten.
@@ -111,7 +111,7 @@ JVM: Europe/Berlin
 {% endhighlight %}
 ### TZ und user.timezone gleichzeitig? user.timezone gewinnt
 
-Setzt man mit `-Duser.timezone=Europe/London` eine unterschiedliche Zeitzone, so _gewinnt_ der Java-Parameter.
+Setzt man mit `-Duser.timezone` eine unterschiedliche Zeitzone, so hat TZ keinen Effekt.
 
 {% highlight console %}
 > docker run --rm -v /etc/localtime:/etc/localtime:ro -e TZ=Europe/London -v $(pwd):/tz -it openjdk:8-jdk /bin/sh -c "cd /tz && javac TZ.java  && java -Duser.timezone=Europe/Berlin TZ && rm TZ.class"
@@ -130,5 +130,5 @@ Die Grundeinstellung für Container ist UTC. Die Zeitzone kann man durch Umgebun
 
 Wenn _user.timezone_ gesetzt ist, wird es auch ausgewertet. Das heißt: setzt man die Umgebungsvariable TZ und _user.timezone_, so hat TZ keinen Einfluss.
 
-Wenn user.timezone fehlerhaft ist, wird das anscheinend als GMT interpretiert.
+Wenn user.timezone fehlerhaft ist, wird das als GMT interpretiert.
 
