@@ -63,7 +63,7 @@ In einem Ordner folgenden Inhalt in eine Datei TZ.java kopieren:
 {% highlight java  %}
 public class TZ {
     public static void main(String[] args) {
-		System.out.println("user.timezone: " + System.getProperty("user.timezone"));
+        System.out.println("user.timezone: " + System.getProperty("user.timezone"));
         System.out.println("JVM: " + java.util.TimeZone.getDefault().getID());
     }
 }
