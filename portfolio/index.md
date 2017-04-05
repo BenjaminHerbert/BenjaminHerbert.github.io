@@ -5,7 +5,7 @@ modified: 2016-12-03T09:00:00
 share: true
 ---
 
-# DevOps Engineer - Build und Deployment - Finanzdienstleistungen (01/2016 - 12/2016)
+# DevOps Engineer - Build und Deployment - Finanzdienstleistungen (01/2016 - heute)
 
 Herr Herbert arbeitete als DevOps Engineer in einem IT-Migrationsprojekt. Er war mit der Migration der Build- und Deployment-Infrastruktur auf Linux-Container betraut.
 
