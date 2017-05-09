@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/BenjaminHerbert/BenjaminHerbert.github.io.svg?branch=master)](https://travis-ci.org/BenjaminHerbert/BenjaminHerbert.github.io)
+
 # BenjaminHerbert.github.io
 
 My personal homepage - http://herbert.cc
