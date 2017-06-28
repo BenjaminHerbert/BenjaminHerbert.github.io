@@ -8,7 +8,7 @@ Berater für zeitgemäße, professionelle Softwareentwicklung, Automatisierung s
 
 Als DevOps Engineer liegt es mir am Herzen die "Durchlaufzeit" [Lead Time](https://en.wikipedia.org/wiki/Lead_time) zu verkürzen, so dass Änderungen von Software schnell den gewünschten Nutzen bringen und produktiv eingesetzt werden können.
 
-Ich habe mehr als 11 Jahre Erfahrung in der IT-Branche in allen Phasen der Software- und Anwendungs- entwicklung wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt. Mein Fokus liegt dabei auf dem *Java*-Ökosystem. 
+Ich habe mehr als 12 Jahre Erfahrung in der IT-Branche in allen Phasen der Software- und Anwendungs- entwicklung wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt. Mein Fokus liegt dabei auf dem *Java*-Ökosystem und den Themen DevOps und Cloud.
 
 <div>
  <img src="images/bh.jpg" alt="Foto von Benjamin Herbert"/>
@@ -30,13 +30,13 @@ Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie insb
 * Continuous Integration
 * Continuous Delivery
 * DevOps
+* Cloud (AWS und Azure)
 * Software Craftsmanship
 * Release-Engineering
 * Build-Engineering
 * Softwareentwicklung im Java Ökosystem
 * Automatisierung von Build und Deployment
 * Betrieb und Aufbau von Build-Infrastruktur
-
 
 Für Projekte bin ich ab **Mitte 2017** verfügbar, bevorzugt im Raum Frankfurt bzw. Rhein-Main-Gebiet.
 
