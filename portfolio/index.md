@@ -5,7 +5,28 @@ modified: 2016-12-03T09:00:00
 share: true
 ---
 
-# DevOps Engineer - Build und Deployment - Finanzdienstleistungen (01/2016 - heute)
+# Studium und Weiterbildung
+
+* Diplom Informatiker - TU Darmstadt (Abschluss 2009)
+* [AWS Certified Solutions Architect – Associate](https://aws.amazon.com/de/certification/certified-solutions-architect-associate/) (Januar 2017)
+
+# Projekte
+## DevOps Engineer - Build und Deployment - Finanzdienstleistungen (01/2017 - heute)
+
+Die Aufgaben umfassen: 
+* die Migration von rkt-Containern zu Docker-Containern
+* die Migration von fleet-Orchestrierung zu Kubernetes
+* Aufbau und Pflege von Deployment-Pipelines für Spring-Boot basierte Software
+* Erarbeiten und Umsetzen von Continous-Delivery Pipelines
+* Erstellen von Continuous Integration Jenkins Builds
+* Inhouse-Coaching zu allen Fragen rund um Maven, Jenkins, Git
+* Aufbau, Betrieb und Pflege einer hybriden verteilten Build-Infrastruktur
+
+### Technologien/Methoden:
+Linux-Container (rkt und Docker), Jenkins 2.x, Jenkins Pipeline, kubernetes / k8s, systemd, Ansible, Java, Maven, Spring Boot, Sonatype Nexus OSS, Atlassian Jira, Atlassian Bitbucket, SonarQube, Outlook
+Linux-Container (rkt und Docker), Jenkins 2.x, Jenkins Pipeline, Jenkins Job DSL, Groovy, CoreOS, fleet, Fedora, CentOS, systemd, Swarm, goss, etcd, Sonatype Nexus OSS, Git, SonarQube
+
+## DevOps Engineer - Build und Deployment - Finanzdienstleistungen (01/2016 - 12/2016)
 
 Herr Herbert arbeitete als DevOps Engineer in einem IT-Migrationsprojekt. Er war mit der Migration der Build- und Deployment-Infrastruktur auf Linux-Container betraut.
 
@@ -26,10 +47,10 @@ Dabei galt der Hauptaugenmerk den Prinzipien Configuration as Code sowie Continu
 * Optimierung der bestehenden Deployment-Verfahren
 * Automatisierung von Build und Deployment
 
-## Technologien/Methoden:
-Linux-Container (rkt und Docker), Jenkins 2.x, Jenkins Pipeline, Jenkins JOB DSL, Groovy, CoreOS, fleet, Fedora, CentOS, systemd, Swarm, goss, etcd, Sonatype Nexus OSS, Git, Sonarqube
+### Technologien/Methoden:
+Linux-Container (rkt und Docker), Jenkins 2.x, Jenkins Pipeline, Jenkins JOB DSL, Groovy, CoreOS, fleet, Fedora, CentOS, systemd, Swarm, goss, etcd, Sonatype Nexus OSS, Git, Sonarqube, Lotus Notes
 
-# DevOps Engineer - Software-Integration - Finanzdienstleistungen (05/2014 - 12/2015)
+## DevOps Engineer - Software-Integration - Finanzdienstleistungen (05/2014 - 12/2015)
 
 Herr Herbert arbeitete im Team Integration eines Finanzdienstleisters als DevOps-Engineer an der Weiterentwicklung der Build- und Deploymentinfrastruktur und der dort verwendeten Tools und Plugins. Er war Ansprechpartner bei Fragen rund um Jenkins sowie Maven und wirkte in verschiedenen Task-Forces mit.
 
@@ -45,10 +66,10 @@ Herr Herbert setzte eine Container-basierte Build-Umgebung mit Hilfe von Docker 
 
 Er arbeitete ein angepasstes Continuous-Integration Modell aus, was den im Haus tätigen Software-Entwicklern ein schnelles Feedback über ihre Arbeit gibt und die bessere Integration der Komponenten in die komplexe Gesamt-Sofware gewährleistet.
 
-## Technologien/Methoden:
+### Technologien/Methoden:
 Jenkins, Java, Sonatype Nexus, Maven, ant, Eclipse, IntelliJ IDEA, Docker, IPv6, rkt (Rocket), Fedora, CentOS, Atlassian JIRA + Confluence + Stash/Bitbucket, SonarQube, Git, Camunda BPM
 
-# Software Engineering - Tourismus (12/2011 - 04/2014)
+## Software Engineering - Tourismus (12/2011 - 04/2014)
 
 Als Java-Entwickler bei einem Reservierungs- und Distributionsdienstleister für
 die internationale Hotellerie war Herr Herbert Teil des agilen Teams.Er leitete
@@ -82,10 +103,10 @@ Seine Tätigkeit umfasste:
 * Analyse und Dokumentation der Softwarearchitektur
 * Durchführung interner Schulungen zu: testgetriebener Entwicklung, JUnit/Mockito, Maven, Jenkins
 
-## Technologien/Methoden:
+### Technologien/Methoden:
 Java SE, Java EE, JPA, Hibernate, Swing, Hessian, WebLogic, Tomcat, HTML, Velocity, Flying Saucer, iText, Jenkins/Hudson, Artifactory, Maven, ant, Eclipse, Cobertura, JUnit, Mockito, Hamcrest, PMD, Findbugs, jvisualvm, jconsole, jMeter, Betriebssystemmittel, Scrum, GIT, SVN
 
-# Forschung und Entwicklung - TU Darmstadt (04/2009 - 10/2011)
+## Forschung und Entwicklung - TU Darmstadt (04/2009 - 10/2011)
 
 Forschungsthema: „Crosslingual Aspects in Semantic Information Retrieval“
 An der TU Darmstadt arbeitete Herr Herbert am Forschungs- und Entwicklungsprojekt SIGMUND. Er koordinierte die Zusammenarbeit mit den Partnerfirmen und war maßgeblich an der Entwicklung und Planung der Software-Komponenten beteiligt. Darüber hinaus hatte er Verantwortung für die im Rahmen der Forschungs- und Entwicklungsarbeit erstellten Komponenten. Zusätzlich übernahm er Verantwortung in der IT-Administration der Arbeitsgruppe.
@@ -108,11 +129,11 @@ Im Rahmen der Forschungstätigkeit hielt er mehrere Vorträge im Bereich multili
 * Teilnahme an Podiumsdiskussion CLEF 2009 Intellectual Property
 * Teilnahme am Program-Committee des TIR 2011 - 8th International Workshop on Text-based Information Retrieval
 
-## Technologien/Methoden
+### Technologien/Methoden
 
 Java, Java EE 5, Groovy, XML, Lucene, Terrier, Web services, Apache Axis, SOAP, Ubuntu Linux, Debian Linux, Subversion, Maven, Artifactory, Jenkins
 
-# Beratung/Implementierung Suchfunktion - REXVINI (08/2010 - 11/2010)
+## Beratung/Implementierung Suchfunktion - REXVINI (08/2010 - 11/2010)
 
 Herr Herbert arbeitete als Experte für Suchtechnologien in der Planung und Entwicklung der Suchfunktion für eine Internet-Weindatenbank. 
 
@@ -122,22 +143,22 @@ Seine Arbeit umfasste:
 * Konzeption und Umsetzung einer Suchfunktion für eine Webapplikation (PHP, Zend Lucene, MySQL, Symfony)
 * Implementierung von UI Prototypen für die Suchmaske (HTML, CSS)
 
-## Technologien/Methoden
+### Technologien/Methoden
 
 Symfony, PHP, HTML, CSS, Lucene, Zend, Debian Linux, MySQL, Subversion, Eclipse
 
-# Softwareentwickler - Vertragswesen (09/2007 - 05/2008)
+## Softwareentwickler - Vertragswesen (09/2007 - 05/2008)
 
 Als Entwickler bei der Firma SealBase entwickelte Herr Herbert mehrere Module der SealBase Vertragsmanagementlösung. Seine Aufgaben waren:
 
 * Entwicklung, Bugfixing und Test eines Softwareprodukts für Vertragsmanagement (C#, MS SQL, Oracle, ASP.NET)
 * Implementierung von Proof-of-Concepts (ASP.NET, Oracle)
 
-## Technologien/Methoden
+### Technologien/Methoden
 
 XHTML, CSS, JavaScript, C#, ADO.NET, ASP.NET, AJAX, Oracle XE 10g, Windows, MS SQL, SQL Developer, Subversion
 
-# Berater/Softwareentwicklung - Darmstadt (10/2005 - 03/2009)
+## Berater/Softwareentwicklung - Darmstadt (10/2005 - 03/2009)
 
 Als Softwareentwickler war Herr Herbert für die Entwicklung und die Pflege der eines Softwareprodukts zuständig und an Planung und Umsetzung mehrerer Kundenprojekte beteiligt.
 
@@ -156,10 +177,6 @@ Seine Aufgaben waren:
 * Entwicklung von Skripten zur Verarbeitung, Bereinigung und Migration von Kundendaten aus einer Excel-basierten Lösung in eine Datenbank
 * Paketierung und Testen für versch. Windowsplattformen (Installshield, VMware)
 
-## Technologien/Methoden
+### Technologien/Methoden
 
 VB, .NET, ASP.NET, C#, MS SQL, C, C++, Installshield, VMware, Windows
-
-
-
-
