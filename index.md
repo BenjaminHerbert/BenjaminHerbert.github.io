@@ -38,7 +38,7 @@ Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie insb
 * Automatisierung von Build und Deployment
 * Betrieb und Aufbau von Build-Infrastruktur
 
-Für Projekte bin ich ab **Mitte 2017** verfügbar, bevorzugt im Raum Frankfurt bzw. Rhein-Main-Gebiet.
+Für Projekte bin ich ab **September 2017** verfügbar, bevorzugt im Raum Frankfurt bzw. Rhein-Main-Gebiet.
 
 Eventuell kann Ihr Problem ja auch *remote* gelöst werden, kontaktieren Sie mich hierzu gerne - vorzugsweise per E-Mail.
 
