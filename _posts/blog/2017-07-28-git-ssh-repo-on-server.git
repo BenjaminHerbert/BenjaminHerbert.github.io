@@ -20,35 +20,36 @@ In unserem Beispiel soll /srv/git/repositories/test als Repository genutzt werde
 
 Man loggt sich per SSH auf dem Server ein und installiert dort git
 
-`
+```bash
 apt-get install git # oder yum, etc.
-`
+```
 
 ## Gruppe gitusers anlegen
 
 Ich lege eine neue Gruppe an um alle Benutzer als Git-Benutzer zu gruppieren:
 
-`
+```bash
 groupadd gitusers
-`
+```
 
 Dann füge ich meinen Benutzer _user_ zu dieser Gruppe hinzu:
 
-`
+```bash
 usermod -a -G gitusers user
-`
+```
+
 *Wichtig: das -a nicht vergessen, sonst wird die Gruppe nicht hinzugefügt,
 sondern man ist dann nur noch in der Gruppe)
 Das Verzeichnis /srv/git/repositories/test legen wir mit
-`
+```bash
 mkdir -p /srv/git/repositories/test
-`
+```
 und ändern dessen Gruppe und Berechtigungen:
 
-`
+```
 chgrp gitusers /srv/git/repositories/test
 chmod g+ws /srv/git/repositories/test
-`
+```
 .
 
 ### setuid
@@ -61,10 +62,10 @@ erhalten diese die Gruppe gitusers und bleiben somit für alle Git-Benutzer (Mit
 
 Wir müssen den Ordner initialisieren, dazu führen wir:
 
-`
+```bash
 cd /srv/git/repositories/test
 git init --bare --shared=group
-`
+```
 
 Man sollte `shared` angeben, sonst werden die Berechtigungen u.U. nicht richtig vergeben,
 da sonst einfach _umask_ verwendet wird.
@@ -74,8 +75,8 @@ da sonst einfach _umask_ verwendet wird.
 
 Auf dem Client führt man dann dieses Kommando aus um zu klonen:
 
-`
+```bash
 git clone git+ssh://user@example.com/srv/git/repositories/test
-`
+```
 
 Das setzt natürlich eine funktionierende SSH-Verbindung voraus.
