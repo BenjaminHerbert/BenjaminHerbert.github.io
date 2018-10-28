@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Vorstellung
+title: Berater für zeitgemäße, professionelle Softwareentwicklung, Automatisierung.
 tags: [devops,java,freelancer,freiberufler,it-beratung,softwareentwicklung,software,consulting,continuous integration,tdd]
 ---
 
-Berater für zeitgemäße, professionelle Softwareentwicklung, Automatisierung sowie Release-Engineering. 
+Als DevOps Engineer liegt es mir am Herzen die "Durchlaufzeit" [Lead Time](https://en.wikipedia.org/wiki/Lead_time) zu verkürzen, so dass Änderungen von Software schnell den gewünschten Nutzen bringen und produktiv eingesetzt werden können. 
 
-Als DevOps Engineer liegt es mir am Herzen die "Durchlaufzeit" [Lead Time](https://en.wikipedia.org/wiki/Lead_time) zu verkürzen, so dass Änderungen von Software schnell den gewünschten Nutzen bringen und produktiv eingesetzt werden können.
+Mein Ziel ist es ihre "Time to Market" zu reduzieren, so dass Sie schnellstens einen Mehrwert erzielen können.
+Stets ist es mein Ziel, ihre Risiken zu minimieren und so eine höchstmögliche Qualität zu erreichen. 
 
 Ich habe mehr als 12 Jahre Erfahrung in der IT-Branche in allen Phasen der Software- und Anwendungs- entwicklung wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt. Mein Fokus liegt dabei auf dem *Java*-Ökosystem und den Themen DevOps und Cloud.
 
