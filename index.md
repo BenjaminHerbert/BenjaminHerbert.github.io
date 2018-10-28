@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Berater für zeitgemäße, professionelle Softwareentwicklung, Automatisierung.
+title: Zeitgemäße, professionelle Softwareentwicklung
 tags: [devops,java,freelancer,freiberufler,it-beratung,softwareentwicklung,software,consulting,continuous integration,tdd]
 ---
 
