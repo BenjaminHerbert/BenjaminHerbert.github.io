@@ -62,9 +62,9 @@ ExecStart=/usr/bin/dockerd -H=0.0.0.0:2376 --tlsverify --tlscacert=/etc/docker/s
 
 Jetzt wird der in der ursprünglich angegebene ExecStart Wert zurückgesetzt und die Unit bzw. `/usr/bin/dockerd` wird in Zukunft mit den übergeben Parametern gestartet.
 
-## Systeme ohne Systemd
+## Systeme ohne systemd
  
-Für Systeme ohne systemd kann auch die _daemon.json_ Datei genutzt werden, bei Systemd lässt sich aber kein `hosts`-Eintrag hinzufügen, genau den habe ich aber gebraucht.
+Für Systeme ohne systemd kann auch die _daemon.json_ Datei genutzt werden, bei systemd lässt sich aber kein `hosts`-Eintrag hinzufügen, genau den habe ich aber gebraucht.
  
 > On systems that use systemd to start the Docker daemon, -H is already set, so you cannot use the hosts key in daemon.json to add listening addresses.
 >
