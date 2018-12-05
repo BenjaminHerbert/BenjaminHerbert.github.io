@@ -2,7 +2,7 @@
 
 title: IT-Beratung - Benjamin Herbert
 locale: de_DE
-description: Softwareentwicklung, Buildmanagement, Release-Engineering
+description: DevOps-Engineer, Softwareentwickler, Continuous Delivery, Cloud
 logo: #site-logo.png
 search: true
 share: true
@@ -39,13 +39,9 @@ owner:
   disqus-shortname:
   twitter: NothingMatress
   xing: https://www.xing.com/profile/Benjamin_Herbert2
-  facebook: #username
   github: BenjaminHerbert
   stackexchange: https://stackoverflow.com/users/1153530/behe
   linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
   google:
     plus: #username
     analytics: UA-55191852-1
