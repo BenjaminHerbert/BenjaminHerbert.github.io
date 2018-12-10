@@ -2,7 +2,7 @@
 
 # BenjaminHerbert.github.io
 
-My personal homepage - https://herbert.cc
+My personal homepage - https://www.herbert.cc
 
 ## Run locally with docker
 
