@@ -49,6 +49,23 @@ Eventuell kann Ihr Problem ja auch *remote* gelöst werden, kontaktieren Sie mic
 {% include address.html %}
 E-Mail: {% include mail.html %}
 
+Ich freue mich über Ihre Anfrage per E-Mail, bitte sehen Sie von Telefonanrufen ab.
+Als Freiberufler und Berater bin ich oft bei Kunden vor Ort im Einsatz und muss dort
+ungestört arbeiten können.
+
+Ihr
+Benjamin Herbert
+
+
+
+PS:
+
+Liebe Vermittler und Agenturen:
+
+- keine Kettengeschäfte
+- keine Anrufe
+- ich biete und fordere Transparenz und Ehrlichkeit
+
 ## Neuste Blogeinträge:
 
 <ul class="post-list">
