@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Portfolio und Projekte
-modified: 2016-12-03T09:00:00
+modified: 2019-05-23T09:00:00
 share: true
----
+--- 
 
 # Studium und Weiterbildung
 
@@ -11,9 +11,69 @@ share: true
 * [AWS Certified Solutions Architect – Associate](https://aws.amazon.com/de/certification/certified-solutions-architect-associate/) (Januar 2017)
 
 # Projekte
-## DevOps Engineer - Build und Deployment - Finanzdienstleistungen (01/2017 - heute)
 
-Die Aufgaben umfassen: 
+## Software- und DevOps-Engineer, Bank, Frankfurt (10/2018 – 03/2019)
+
+Herr Herbert arbeitete als Softwareentwickler im Teilprojekt des Multiprojekts IT-
+Zielbild, welches die Schlussnotenverarbeitung aus der Orderverarbeitung herauslösen soll.
+ 
+Ziel des Teilprojekts ist es, die alte Host-basierte Anwendung in
+eine moderne Microservice-basierte Architektur auf den Java-Stack zu überführen.
+Zu den Aufgaben zählten neben Entwurf und Programmierung des Microservices
+zur Schlussnotenverarbeitung auch die Pflege und Weiterentwicklung der Build-
+Pipeline mit GitLab CI
+
+Seine Tätigkeit umfasste:
+
+* Mitarbeit im verteilten Scrum-Team (DE/HU)
+* Konzeption und Programmierung von Java-Komponenten im Spring Boot Framework
+* Umsetzung von Enterprise Integration Patterns mit Spring Integration
+* Implementierung eines Microservices zur Verarbeitung von Schlussnoten im Spring Boot-Framework
+* Kommunikation mit Host-Systemen über ESB und IBM MQ 
+* Entwurf und Implementierung von Schemata zur Kommunikation mit auf dem Host-System verbleibenden Komponenten
+* Entwurf eines einheitlichen Schemas zur Repräsentation der Schlussnoteninformation, die von verschiedenen Börsen im FIX-Format geliefert wird.
+* Konzeption und Erstellung von Integrationstests der Anwendung mit IBM MQ und Oracle DB mit Docker Compose
+* Konzeption und Umsetzung der Akzeptanztests mit dem Gauge-Framework innerhalb der Gitlab-CI-Pipeline
+* Parallelisierung der Tests über verschiedene Branches 
+* Erstellen von Ansible-Skripten zum Deployment der Anwendung in den Umgebungen Test, Staging und Produktion
+* Erstellung und Pflege der Build-Pipelines in GitLab
+
+### Technologien/Methoden:
+
+Java 8, Docker, Docker Compose, Maven, Spring Boot, Spring Integration, JPA, Hibernate, Ansible, Jenkins, Git, Bitbucket, Jira, GitLab, GitLabCI, Nexus, IntelliJ Idea, IBM MQ, Oracle DB, Apache Kafka, Scrum
+
+##  Software- und DevOps-Engineer, Bank, Frankfurt (10/2017 – 06/2018)
+
+Herr Herbert arbeitete als Softwareentwickler im Teilprojekt des Multiprojekts IT-
+Zielbild, welches die Schlussnotenverarbeitung aus der Orderverarbeitung
+herauslösen soll. Ziel des Teilprojekts ist es, die alte Host-basierte Anwendung in
+eine moderne Microservice-basierte Architektur auf den Java-Stack zu überführen.
+Zu den Aufgaben zählten neben Entwurf und Programmierung des Microservices
+zur Schlussnotenverarbeitung auch der Aufbau verschiedener Proof-of-Concepts.
+
+Seine Tätigkeit umfasste:
+
+* Mitarbeit im verteilten Scrum-Team (DE/HU)
+* Konzeption und Programmierung von Java-Komponenten im Spring Boot Framework
+* Implementierung eines Microservices zur Verarbeitung von Schlussnoten im Spring Boot-Framework
+* Kommunikation mit Host-Systemen über ESB und IBM MQ 
+* Entwurf und Implementierung von Schemata zur Kommunikation mit auf dem Host-System verbleibenden Komponenten
+* Entwurf eines einheitlichen Schemas zur Repräsentation der Schlussnoteninformation, die von verschiedenen Börsen im FIX-Format geliefert wird.
+* Konzeption und Erstellung von Integrationstests für Kafka Streaming Pipelines mit Docker Compose
+* Konzeption und Umsetzung eines Proof-of-Concepts zur Verarbeitung von Schlussnoten in Apache Kafka 
+* Aufbau von Integrationstest mit Docker Compose
+* Analyse und Erstellen von Ansible-Skripten zum Deployment der Anwendung in den Umgebungen Test, Staging und Produktion
+* Konzeption und Aufbau eines Proof-of-Concepts für Continuous-Delivery von Microservices mit Kubernetes
+
+### Technologien/Methoden:
+
+Java 8, Docker, Docker Compose, QuickFix/J, Maven,
+Spring Boot, Ansible, Jenkins, Git, Bitbucket, Jira, GitLab, Nexus, IntelliJ Idea,
+IBM MQ, Oracle DB, Apache Kafka, Scrum, Kubernetes
+
+## DevOps Engineer - Build und Deployment - Finanzdienstleistungen (01/2017 - 09/2017)
+
+Die Aufgaben umfassten: 
 * die Migration von rkt-Containern zu Docker-Containern
 * die Migration von fleet-Orchestrierung zu Kubernetes
 * Aufbau und Pflege von Deployment-Pipelines für Spring-Boot basierte Software
@@ -24,7 +84,6 @@ Die Aufgaben umfassen:
 
 ### Technologien/Methoden:
 Linux-Container (rkt und Docker), Jenkins 2.x, Jenkins Pipeline, kubernetes / k8s, systemd, Ansible, Java, Maven, Spring Boot, Sonatype Nexus OSS, Atlassian Jira, Atlassian Bitbucket, SonarQube, Outlook
-Linux-Container (rkt und Docker), Jenkins 2.x, Jenkins Pipeline, Jenkins Job DSL, Groovy, CoreOS, fleet, Fedora, CentOS, systemd, Swarm, goss, etcd, Sonatype Nexus OSS, Git, SonarQube
 
 ## DevOps Engineer - Build und Deployment - Finanzdienstleistungen (01/2016 - 12/2016)
 

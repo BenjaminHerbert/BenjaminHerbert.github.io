@@ -2,12 +2,19 @@
 layout: page
 title: Kontakt
 excerpt:
-modified: 2014-09-18T12:00:00
+modified: 2019-05-23T12:00:00
 ---
 
+
 {% include address.html %}
+
 E-Mail: {% include mail.html %}
 Mobil: {% include phone.html %}
+
+### Projektanfragen
+
+Projektanfragen bitte ausschließlich per E-Mail.
+
 
 ## Impressum
 
