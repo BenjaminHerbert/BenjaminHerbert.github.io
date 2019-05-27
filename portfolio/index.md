@@ -1,16 +1,24 @@
 ---
 layout: page
 title: Portfolio und Projekte
-modified: 2019-05-23T09:00:00
+modified: 2019-05-27T09:00:00
 share: true
 --- 
 
-# Studium und Weiterbildung
+# Studium und Zertifikate
 
 * Diplom Informatiker - TU Darmstadt (Abschluss 2009)
 * [AWS Certified Solutions Architect – Associate](https://aws.amazon.com/de/certification/certified-solutions-architect-associate/) (Januar 2017)
 
-# Projekte
+
+# Weiterbildung
+
+* Architecting for Continuous Delivery and Zero Downtime (2 Tage)- Axel Fontaine
+* Implementing Domain Driven Design (3 Tage)- Vaughn Vernon
+* PCI-DSS Secure Coding
+* Scrum & Kanban
+
+# Projekterfahrung
 
 ## Software- und DevOps-Engineer, Bank, Frankfurt (10/2018 – 03/2019)
 
