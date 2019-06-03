@@ -8,14 +8,14 @@ share: true
 # Studium und Zertifikate
 
 * Diplom Informatiker - TU Darmstadt (Abschluss 2009)
-* [AWS Certified Solutions Architect – Associate](https://aws.amazon.com/de/certification/certified-solutions-architect-associate/) (Januar 2017)
-
+* [AWS Certified Solutions Architect – Associate](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-01-10&ci=AWS00228802) (Januar 2017)
 
 # Weiterbildung
 
 * Architecting for Continuous Delivery and Zero Downtime (2 Tage)- Axel Fontaine
 * Implementing Domain Driven Design (3 Tage)- Vaughn Vernon
-* PCI-DSS Secure Coding
+* RHCSE8 - Crash Course - Sander van Vugt
+* PCI-DSS - Secure Coding
 * Scrum & Kanban
 
 # Projekterfahrung
