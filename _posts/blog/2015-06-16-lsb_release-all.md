@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Distributionsinformation unter Linux ausgeben"
-modified:
+modified: 2019-06-03
 categories: blog
 excerpt:
 tags: [linux]
