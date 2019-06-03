@@ -7,6 +7,12 @@ excerpt:
 tags: [linux]
 author: benjamin_herbert
 ---
+# Informationen aus /etc/os-release
+
+Sucht man datei-basierte Information über die Linux-Version kann man diese in `/etc/os-release`finden.
+Das Ergebnis ist eine mit Newline getrennte Liste von KEY=VALUE-Paaren, wie sie beispielsweise auch in Environment zu finden ist.
+
+Mehr Information darüber gibt die manpage `man os-release`.
 
 # Information über die Linux-Version mit lsb_release herausfinden
 
