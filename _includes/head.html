@@ -1,9 +1,9 @@
 <meta charset="utf-8">
-<title>% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 {% if page.robots %}
   <meta name="robots" content="{{page.robots}}" />
 {% endif %}
-{
+
 {% if page.description %}
   <meta name="description" content="{{ page.description}}" />
 {% elsif page.excerpt %}
