@@ -20,7 +20,7 @@ share: true
 
 # Projekterfahrung
 
-## Software- und DevOps-Engineer, Bank, Frankfurt (10/2018 – 03/2019)
+## Software- und DevOps-Engineer, Bank, Frankfurt (6 Monate)
 
 Herr Herbert arbeitete als Softwareentwickler im Teilprojekt des Multiprojekts IT-
 Zielbild, welches die Schlussnotenverarbeitung aus der Orderverarbeitung herauslösen soll.
@@ -50,7 +50,7 @@ Seine Tätigkeit umfasste:
 
 Java 8, Docker, Docker Compose, Maven, Spring Boot, Spring Integration, JPA, Hibernate, Ansible, Jenkins, Git, Bitbucket, Jira, GitLab, GitLabCI, Nexus, IntelliJ Idea, IBM MQ, Oracle DB, Apache Kafka, Scrum
 
-##  Software- und DevOps-Engineer, Bank, Frankfurt (10/2017 – 06/2018)
+##  Software- und DevOps-Engineer, Bank, Frankfurt (9 Monate)
 
 Herr Herbert arbeitete als Softwareentwickler im Teilprojekt des Multiprojekts IT-
 Zielbild, welches die Schlussnotenverarbeitung aus der Orderverarbeitung
@@ -79,7 +79,7 @@ Java 8, Docker, Docker Compose, QuickFix/J, Maven,
 Spring Boot, Ansible, Jenkins, Git, Bitbucket, Jira, GitLab, Nexus, IntelliJ Idea,
 IBM MQ, Oracle DB, Apache Kafka, Scrum, Kubernetes
 
-## DevOps Engineer - Build und Deployment - Finanzdienstleistungen (01/2017 - 09/2017)
+## DevOps Engineer - Build und Deployment - Finanzdienstleistungen (9 Monate)
 
 Die Aufgaben umfassten: 
 * die Migration von rkt-Containern zu Docker-Containern
@@ -93,7 +93,7 @@ Die Aufgaben umfassten:
 ### Technologien/Methoden:
 Linux-Container (rkt und Docker), Jenkins 2.x, Jenkins Pipeline, kubernetes / k8s, systemd, Ansible, Java, Maven, Spring Boot, Sonatype Nexus OSS, Atlassian Jira, Atlassian Bitbucket, SonarQube, Outlook
 
-## DevOps Engineer - Build und Deployment - Finanzdienstleistungen (01/2016 - 12/2016)
+## DevOps Engineer - Build und Deployment - Finanzdienstleistungen (12 Monate)
 
 Herr Herbert arbeitete als DevOps Engineer in einem IT-Migrationsprojekt. Er war mit der Migration der Build- und Deployment-Infrastruktur auf Linux-Container betraut.
 
@@ -117,7 +117,7 @@ Dabei galt der Hauptaugenmerk den Prinzipien Configuration as Code sowie Continu
 ### Technologien/Methoden:
 Linux-Container (rkt und Docker), Jenkins 2.x, Jenkins Pipeline, Jenkins JOB DSL, Groovy, CoreOS, fleet, Fedora, CentOS, systemd, Swarm, goss, etcd, Sonatype Nexus OSS, Git, Sonarqube, Lotus Notes
 
-## DevOps Engineer - Software-Integration - Finanzdienstleistungen (05/2014 - 12/2015)
+## DevOps Engineer - Software-Integration - Finanzdienstleistungen (20 Monate)
 
 Herr Herbert arbeitete im Team Integration eines Finanzdienstleisters als DevOps-Engineer an der Weiterentwicklung der Build- und Deploymentinfrastruktur und der dort verwendeten Tools und Plugins. Er war Ansprechpartner bei Fragen rund um Jenkins sowie Maven und wirkte in verschiedenen Task-Forces mit.
 
@@ -136,7 +136,7 @@ Er arbeitete ein angepasstes Continuous-Integration Modell aus, was den im Haus 
 ### Technologien/Methoden:
 Jenkins, Java, Sonatype Nexus, Maven, ant, Eclipse, IntelliJ IDEA, Docker, IPv6, rkt (Rocket), Fedora, CentOS, Atlassian JIRA + Confluence + Stash/Bitbucket, SonarQube, Git, Camunda BPM
 
-## Software Engineering - Tourismus (12/2011 - 04/2014)
+## Software Engineering - Tourismus (ca. 2,5 Jahre)
 
 Als Java-Entwickler bei einem Reservierungs- und Distributionsdienstleister für
 die internationale Hotellerie war Herr Herbert Teil des agilen Teams.Er leitete
