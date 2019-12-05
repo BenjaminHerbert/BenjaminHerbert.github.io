@@ -4,12 +4,13 @@ title: Zeitgemäße, professionelle Softwareentwicklung
 tags: [devops,java,freelancer,freiberufler,it-beratung,softwareentwicklung,software,consulting,continuous integration,tdd]
 ---
 
-Als DevOps Engineer liegt es mir am Herzen die "Durchlaufzeit" [Lead Time](https://en.wikipedia.org/wiki/Lead_time) zu verkürzen, so dass Änderungen von Software schnell den gewünschten Nutzen bringen und produktiv eingesetzt werden können. 
+Als DevOps Engineer liegt es mir am Herzen die "Durchlaufzeit" [Lead Time](https://en.wikipedia.org/wiki/Lead_time) zu verkürzen. Änderungen von Software sollen schnell den gewünschten Nutzen bringen und produktiv eingesetzt werden. 
 
 Mein Ziel ist es ihre "Time to Market" zu reduzieren, so dass Sie schnellstens einen Mehrwert erzielen können.
-Stets ist es mein Ziel, ihre Risiken zu minimieren und so eine höchstmögliche Qualität zu erreichen. 
+Dabei helfe ich Ihnen ihre Risiken zu minimieren, denn nur so kann eine höchstmögliche Qualität erreicht werden. 
 
-Ich habe mehr als 12 Jahre Erfahrung in der IT-Branche in allen Phasen der Software- und Anwendungs- entwicklung wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt. Mein Fokus liegt dabei auf dem *Java*-Ökosystem und den Themen DevOps und Cloud.
+Ich habe mehr als 12 Jahre Erfahrung in allen Phasen der Software- und Anwendungsentwicklung. 
+wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt. Mein Fokus liegt dabei auf dem *Java*-Ökosystem und den Themen DevOps und Cloud.
 
 <div>
  <img src="images/bh.jpg" alt="Foto von Benjamin Herbert"/>
@@ -20,7 +21,7 @@ handle ich nach dem Motto:
 
 <cite>"How it is done is as important as having it done"</cite> - [@sandromancuso](https://twitter.com/sandromancuso)
 
-Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie insbesondere bei den folgenden Themen unterstützen:
+Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie u.a. bei diesen Themen unterstützen:
 
 ## Themen:
 * Konzeption, Entwicklung und Test von Softwarelösungen in Java
@@ -50,6 +51,7 @@ Eventuell kann Ihr Problem ja auch *remote* gelöst werden, kontaktieren Sie mic
 E-Mail: {% include mail.html %}
 
 Ich freue mich über Ihre Anfrage per E-Mail, bitte sehen Sie von Telefonanrufen ab.
+
 Als Freiberufler und Berater bin ich oft bei Kunden vor Ort im Einsatz und muss dort
 ungestört arbeiten können.
 
