@@ -24,20 +24,17 @@ handle ich nach dem Motto:
 Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie u.a. bei diesen Themen unterstützen:
 
 ## Themen:
+* DevOps
+* Kubernetes
+* Cloud (AWS und Azure)
+* Softwareentwicklung im Java Ökosystem
 * Konzeption, Entwicklung und Test von Softwarelösungen in Java
-* TDD / Test-Driven-Development
 * Buildmanagement
 * Releasemanagement
-* Legacy Code / Refactoring
 * Continuous Integration
 * Continuous Delivery
-* DevOps
-* Cloud (AWS und Azure)
 * Software Craftsmanship
 * Software Engineering
-* Release-Engineering
-* Build-Engineering
-* Softwareentwicklung im Java Ökosystem
 * Automatisierung von Build und Deployment
 * Betrieb und Aufbau von Build-Infrastruktur
 
