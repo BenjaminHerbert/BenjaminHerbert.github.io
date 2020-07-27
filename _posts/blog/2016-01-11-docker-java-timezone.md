@@ -132,3 +132,12 @@ Wenn _user.timezone_ gesetzt ist, wird es auch ausgewertet. Das heißt: setzt ma
 
 Wenn user.timezone fehlerhaft ist, wird das als GMT interpretiert.
 
+
+## Wichtige Empfehlung / Hinweis
+
+Das hier ist eine Untersuchung, wie man im Container die Zeitzone korrekt setzen kann und wie sich das im Zusammenspiel mit der JVM verhält.
+
+* Ich empfehle UTC zu nutzen.* - das muss ich hier nochmals wiederholen. Hintergründe gibt es unter anderem in diesem Artikel: http://yellerapp.com/posts/2015-01-12-the-worst-server-setup-you-can-make.html
+
+
+
