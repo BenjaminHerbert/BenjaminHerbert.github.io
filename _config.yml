@@ -9,7 +9,12 @@ share: true
 url: https://www.herbert.cc
 
 # Jekyll configuration
-
+defaults:
+  -
+    scope:
+      path:            "datenschutz/**/*"
+    values:
+      sitemap:         false
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: rouge
