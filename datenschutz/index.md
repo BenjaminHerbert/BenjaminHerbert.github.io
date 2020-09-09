@@ -2,7 +2,7 @@
 layout: page
 title: Datenschutz
 excerpt:
-robots: noindex,nofollow
+robots: index,nofollow
 modified: 2019-05-23T12:00:00
 ---
 
