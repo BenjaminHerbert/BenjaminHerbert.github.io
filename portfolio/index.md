@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Portfolio und Projekte
-modified: 2019-05-27T09:00:00
+modified: 2022-04-05T09:00:00
 share: true
---- 
+---
 
 # Studium und Zertifikate
 
@@ -19,6 +19,44 @@ share: true
 * Scrum & Kanban
 
 # Projekterfahrung
+
+## DevOps-Engineer, Finanzdienstleistung, Frankfurt (18 Monate)
+
+Herr Herbert betreute die Kubernetes-Cluster und befasste sich mit deren Betrieb und Weiterentwicklung sowie verschiedenen Themen im Bereich Migration und Betrieb in der Azure-Cloud
+
+Seine Tätigkeit und Themen umfassten:
+
+* Konfiguration und Pflege der Kubernetes-Systeme
+* Pflege und Weiterentwicklung der Kubernetes-Konfiguration (jsonnet-basiert)
+* Sicherstellung des reibungslosen Betriebs an 2 Standorten sowie in der Azure Cloud
+* Unterstützung und Support der Entwickler von Microservices
+* Ganzheitliche Analyse, Qualifizierung und Troubleshooting der betreuten Systeme
+* Nutzung von Azure:
+    * Azure AKS
+    * Azure DNS
+    * Azure Storage
+    * Azure Container Registry
+    * Azure DevOps
+* Aufbau und Pflege der Azure Container Registry (ACR)
+* Automatisierter Aufbau der Container-Images mit ACR-Tasks zusammen mit Azure Devops-Git Repositories
+* Performanceanalysen erstellen und Kennzahlen ermitteln
+* Backups mit Velero nach Azure Storage
+* GitOps mit FluxCD und Azure Devops Repo/Github
+* Logging mit fluentd nach Azure Log Analytics
+* Erstellung und Pflege der Dokumentation
+* Kontinuierliche Optimierung der Prozesse und Abläufe im eigenen Aufgabenbereich
+* Mitwirkung (Konzepterstellung, Wartung & Betrieb) an zukünftiger Cloud Strategie (Azure)
+* Betrieb und Administration von Lowcode-Anwendungen im Modus „Mendix Private Cloud“ in Kubernetes
+* Umzug von Kubernetes-Clustern von Giantswarm (onprem und Azure) nach Azure AKS
+* Aufbau und Pflege von Monitoring und Alerting
+* Pflege der HAProxy Loadbalancer für Kubernetes
+* Infrastructure as Code von u.a. AKS, DNS, Netzwerk mit Terraform in Azure-Cloud
+* Entwicklung und Pflege von Helm-Templates für Microservices
+* Entwicklung und Weiterentwicklung von Azure Functions
+   
+### Technologien/Methoden
+
+Kubernetes, Docker, rkt, Azure Container Registry, Azure DevOps, Azure Storage, Azure DNS, DevOps, Git, GitOps, Flux/FluxCD, Prometheus, Mendix, HAProxy, Nginx, Terraform, Velero, Puppet, Foreman, Helm, Zabbix, SealedSecrets, CentOS 7, IntelliJ IDEA, Go, Jenkins
 
 ## Software- und DevOps-Engineer, Bank, Frankfurt (6 Monate)
 
