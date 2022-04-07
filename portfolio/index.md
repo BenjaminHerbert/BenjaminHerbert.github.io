@@ -20,7 +20,7 @@ share: true
 
 # Projekterfahrung
 
-## DevOps-Engineer, Finanzdienstleistung, Frankfurt (18 Monate)
+## DevOps-Engineer, Finanzdienstleistung, Frankfurt (30 Monate)
 
 Herr Herbert betreute die Kubernetes-Cluster und befasste sich mit deren Betrieb und Weiterentwicklung sowie verschiedenen Themen im Bereich Migration und Betrieb in der Azure-Cloud
 
