@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Maven settings.xml für alle Jobs ändern"
-modified:
+modified: 2022-04-22
 tags: [jenkins, groovy, script, maven]
 categories: blog
 excerpt:
@@ -31,13 +31,12 @@ Dann wird bei einem Build die auf dem Master konfigurierte Datei auch auf dem Sl
 
 ## Jenkins Jobs nachträglich ändern
 
-Will man _bereits bestehende_ Jobs ändern, so dass eine in Maven konfigurierte `settings.xml` genutzt wird, bietet sich die [Jenkins Script Console](https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+Script+Console) an.
+Will man _bereits bestehende_ Jobs ändern, so dass eine in Maven konfigurierte `settings.xml` genutzt wird, bietet sich die [Jenkins Script Console](https://www.jenkins.io/doc/book/managing/script-console/) an.
 
 Hat man eine `settingsConfigId`, so kann man mit folgendem Groovy-Skript den `SettingsProvider` finden.
 
 {% gist BenjaminHerbert/16aaf0aed1a5fce4ec42 %}
 
-Was man macht, ist sich anhand der ID eine neue MvnGlobalSettingsProvider-Instanz zu erzeugen. Dann setzt man mit der Methode [`http://javadoc.jenkins-ci.org/hudson/maven/MavenModuleSet.html#setGlobalSettings(jenkins.mvn.GlobalSettingsProvider)`](http://javadoc.jenkins-ci.org/hudson/maven/MavenModuleSet.html#setGlobalSettings(jenkins.mvn.GlobalSettingsProvider)) den jeweiligen `GlobalSettingsProvider` auf die erzeugte Instanz.
+Was man macht, ist sich anhand der ID eine neue MvnGlobalSettingsProvider-Instanz zu erzeugen. Dann setzt man mit der Methode [`setGlobalSettings(jenkins.mvn.GlobalSettingsProvider)`](https://javadoc.jenkins.io/plugin/maven-plugin/hudson/maven/MavenModuleSet.html#setGlobalSettings(jenkins.mvn.GlobalSettingsProvider)) den jeweiligen `GlobalSettingsProvider` auf die erzeugte Instanz.
 
 `MavenModuleSet`s stellen die üblichen Jenkins-Maven-Projekte dar. Diese können auch sogenannte PreBuilder haben. Die innere Schleife zeigt, wie man über diese iteriert und falls es sich hier auch um `Maven`-Tasks handelt, ändert.
-
