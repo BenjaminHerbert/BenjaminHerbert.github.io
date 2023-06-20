@@ -9,8 +9,8 @@ Als DevOps Engineer liegt es mir am Herzen die "Durchlaufzeit" [Lead Time](https
 Mein Ziel ist es ihre "Time to Market" zu reduzieren, so dass Sie schnellstens einen Mehrwert erzielen können.
 Dabei helfe ich Ihnen ihre Risiken zu minimieren, denn nur so kann eine höchstmögliche Qualität erreicht werden. 
 
-Ich habe mehr als 12 Jahre Erfahrung in allen Phasen der Software- und Anwendungsentwicklung. 
-wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt. Mein Fokus liegt dabei auf dem *Java*-Ökosystem und den Themen DevOps und Cloud.
+Ich habe mehr als 12 Jahre Erfahrung in allen Phasen der Software- und Anwendungsentwicklung wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt. 
+Mein Fokus liegt dabei auf den Themen Kubernetes, DevOps und Cloud. 
 
 <div>
  <img src="images/bh.jpg" alt="Foto von Benjamin Herbert"/>
