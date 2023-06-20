@@ -25,12 +25,12 @@ Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie u.a.
 
 ## Themen:
 * DevOps
-* Kubernetes
+* Kubernetes (AKS/k3s/on premise)
 * Cloud (AWS und Azure)
+* Terraform und Terragrunt
+* Elasticsearch
 * Softwareentwicklung im Java Ökosystem
 * Konzeption, Entwicklung und Test von Softwarelösungen in Java
-* Buildmanagement
-* Releasemanagement
 * Continuous Integration
 * Continuous Delivery
 * Software Craftsmanship
@@ -38,9 +38,9 @@ Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie u.a.
 * Automatisierung von Build und Deployment
 * Betrieb und Aufbau von Build-Infrastruktur
 
-Ich bin derzeit ausschließlich an Projekten im Großraum Frankfurt interessiert.
+Ich bin derzeit ausschließlich an Projekten interessiert, deren Bearbeitung remote erfolgen kann.
 
-Eventuell kann Ihr Problem ja auch *remote* gelöst werden, kontaktieren Sie mich hierzu gerne - vorzugsweise per E-Mail.
+Kontaktieren Sie mich gerne - vorzugsweise per E-Mail.
 
 ## Kontakt:
 
