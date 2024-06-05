@@ -18,8 +18,6 @@ Projektanfragen bitte ausschließlich per E-Mail.
 
 ## Impressum
 
-### Angaben gemäß § 5 TMG:
-
 {% include address.html %}
 
 ### Kontakt:
