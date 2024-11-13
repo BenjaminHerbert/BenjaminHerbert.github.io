@@ -41,10 +41,14 @@ Heredoc und JSON-Struktur: Mithilfe von `cat <<EOF ... EOF` fügen wir das mehrz
 `openssl rand -hex 25`: Dieser Befehl generiert einen zufälligen hexadezimalen String mit 25 Bytes Länge, was 50 Zeichen entspricht. openssl rand ist ein Teil der OpenSSL-Bibliothek und wird häufig verwendet, um sichere Zufallswerte für Passwörter oder Secrets zu generieren. Das -hex-Flag sorgt dafür, dass der Wert hexadezimal ist – ideal für sichere Schlüssel.
 
 ### Warum openssl rand?
+
 Der openssl rand-Befehl ist äußerst nützlich, um kryptographisch sichere Zufallswerte zu erzeugen. Die Länge von 25 Bytes (entspricht 200 Bits) ist für viele Anwendungen ausreichend sicher. Du kannst die Anzahl der Bytes anpassen, wenn du längere oder kürzere Werte benötigst. Mit openssl rand -hex 25 wird ein Wert erzeugt, der schwer zu erraten ist, was besonders wichtig für sensible Informationen wie API-Schlüssel und Passwörter ist.
 
 ### Ein paar Anmerkungen zur Sicherheit
+
 **JSON und Struktur**: Die JSON-Struktur bietet eine übersichtliche Möglichkeit, Secrets zu speichern und kann in vielen Situationen nützlich sein, z.B. wenn du mehrere Werte gemeinsam speichern möchtest.
+
+
 **Vermeidung von Klartext in Skripten**: Secrets sollten nicht im Klartext in Skripten oder Umgebungsvariablen gespeichert werden, und die Verwendung von Heredoc und der direkten Speicherung im Key Vault sorgt für Sicherheit in diesem Prozess.
 
 ### Fazit
