@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wie man ein Multi-Line secret in Azure Key Vault per Bash anlegt"
-tags: [azure, bash, secret, akv]
+tags: [azure, bash, secret, akv, cloud]
 categories: blog
 excerpt:
 author: benjamin_herbert
