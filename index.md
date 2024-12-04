@@ -3,14 +3,11 @@ layout: page
 title: Zeitgemäße, professionelle Softwareentwicklung
 tags: [devops,java,freelancer,freiberufler,it-beratung,softwareentwicklung,software,consulting,continuous integration,tdd]
 ---
+Als DevOps Engineer ist es mein Anspruch, die Durchlaufzeit ([Lead Time](https://en.wikipedia.org/wiki/Lead_time)) zu minimieren. Softwareänderungen sollen schnell und zuverlässig ihren gewünschten Nutzen entfalten und produktiv eingesetzt werden.
 
-Als DevOps Engineer liegt es mir am Herzen die "Durchlaufzeit" [Lead Time](https://en.wikipedia.org/wiki/Lead_time) zu verkürzen. Änderungen von Software sollen schnell den gewünschten Nutzen bringen und produktiv eingesetzt werden. 
+Mein Ziel: Ihre **Time to Market** spürbar verkürzen, damit sie schneller einen messbaren Mehrwert erzielen. Davei lege ich besonderen Wert darauf, Risiken zu reduzieren und so die schnellstmögliche Qualität Ihrer Anwendungen sicherzustellen.
 
-Mein Ziel ist es ihre "Time to Market" zu reduzieren, so dass Sie schnellstens einen Mehrwert erzielen können.
-Dabei helfe ich Ihnen ihre Risiken zu minimieren, denn nur so kann eine höchstmögliche Qualität erreicht werden. 
-
-Ich habe mehr als 12 Jahre Erfahrung in allen Phasen der Software- und Anwendungsentwicklung wie Konzeption, Implementierung, Testen, Releasemanagement und Betrieb gesammelt. 
-Mein Fokus liegt dabei auf den Themen Kubernetes, DevOps und Cloud. 
+Mit über 12 Jahren Erfahrung in allen Phasen der Software- und Anwendungsentwicklung - von Konzeption über Implementierung und Test bis hin zu Release-Management und Betrieb - bringe ich umfassendes Know-how mit. Mein Schwerpunkt liegt dabei auf [Kubernetes](https://www.herbert.cc/tags/#kubernetes), DevOps, Infrastructure-as-Code (IaC) und [Cloud](https://www.herbert.cc/tags/#cloud).
 
 <div>
  <img src="images/bh.jpg" alt="Foto von Benjamin Herbert"/>
@@ -26,10 +23,9 @@ Auf freiberuflicher Basis begleite ich Sie bei Ihren Projekten und kann Sie u.a.
 ## Themen:
 * DevOps
 * Kubernetes (AKS/k3s/on premise)
-* Cloud (AWS und Azure)
+* Cloud (AWS und [Azure](https://www.herbert.cc/tags/#azure))
 * Terraform und Terragrunt
 * Elasticsearch
-* Softwareentwicklung im Java Ökosystem
 * Konzeption, Entwicklung und Test von Softwarelösungen in Java
 * Continuous Integration
 * Continuous Delivery
