@@ -2,6 +2,7 @@
 layout: page
 title: Zeitgemäße, professionelle Softwareentwicklung
 tags: [devops,java,freelancer,freiberufler,it-beratung,softwareentwicklung,software,consulting,continuous integration,tdd]
+last_modified_at: 2025-01-05 12:14:00 +0100
 ---
 Als DevOps Engineer ist es mein Anspruch, die Durchlaufzeit ([Lead Time](https://en.wikipedia.org/wiki/Lead_time)) zu minimieren. Softwareänderungen sollen schnell und zuverlässig ihren gewünschten Nutzen entfalten und produktiv eingesetzt werden.
 
