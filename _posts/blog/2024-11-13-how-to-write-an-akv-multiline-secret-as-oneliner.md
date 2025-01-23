@@ -5,7 +5,8 @@ tags: [azure, bash, secret, akv, cloud]
 categories: blog
 excerpt:
 author: benjamin_herbert
-
+redirect_from:
+  - /blog/how-to-write-an-akv-multiline-secret-as-onliner/
 ---
 
 ## Mehrzeilige Secrets in Azure per Bash und Heredoc anlegen – als Einzeiler
