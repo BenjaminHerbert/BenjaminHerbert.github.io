@@ -32,7 +32,7 @@ Mit über 20 Jahren Erfahrung in Softwareentwicklung (insbesondere Java) und Dev
 * **Sicherheits- und Compliance-Automatisierung** (Secret Management, Security Scanning, Policy-as-Code)
 * **Monitoring & Observability** (Prometheus, Grafana, Elasticsearch)
 * **Softwareentwicklung & Architektur** (Java, Microservices, CI/CD)
-*	**GitOps & Automatisierung** (ArgoCD, Flux, Jenkins, GitHub Actions)
+* **GitOps & Automatisierung** (ArgoCD, Flux, Jenkins, GitHub Actions)
 * **Skalierung und Kostenoptimierung** (Auto-Scaling, Workload-Optimierung)
 
 Mein Schwerpunkt liegt dabei auf [Kubernetes](https://www.herbert.cc/tags/#kubernetes), DevOps, Infrastructure-as-Code (IaC) und [Cloud](https://www.herbert.cc/tags/#cloud).
