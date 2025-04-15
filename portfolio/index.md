@@ -7,7 +7,8 @@ share: true
 
 # Studium und Zertifikate
 
-* Diplom Informatiker - TU Darmstadt (Abschluss 2009)
+* Diplom Informatiker - TU Darmstadt - Abschluss 2009
+* Certified Kubernetes Administrator (CKA) - 2023
 * [AWS Certified Solutions Architect – Associate](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-01-10&ci=AWS00228802) (Januar 2017)
 
 # Weiterbildung
@@ -19,6 +20,71 @@ share: true
 * Scrum & Kanban
 
 # Projekterfahrung
+
+## Development Infrastructure, Cybersecurity, (laufendes Engagement)
+
+Herr Herbert betreut die Entwicklungsinfrastruktur
+ 
+Tätigkeiten und Themen:
+
+* ArgoCD
+* Cert-Manager
+* Crossplane
+* Helm-Charts erstellen
+* helmfile
+* ExternalSecrets Operator (ESO)
+* Jenkins Operator
+* Private Access für Azure Services
+* Renovate
+* AKS Auto-Upgrades & Maintenance
+* EJBCA
+* Observability
+  * Loki
+  * Grafana
+  * Alerting
+* GitLab mit Auto-Upgrades
+* Packer
+* Azure
+  * Storage Account
+  * DNS / Private DNS
+  * AKS
+  * Virtual Machines
+  * AD / Entra ID
+  * Managed Identities
+  * Cost Analysis
+  * KeyVault
+
+## DevOps-Engineer, HVAC, Remscheid (23 Monate)
+
+Herr Herbert betreute die Azure Kubernetes Services Cluster in einem Platform-Team, um die Entwicklung der Microservices zu ermöglichen.
+
+Seine Tätigkeit und Themen umfassten
+
+* AKS Cluster aufsetzen und pflegen
+* Erstellen und Pflegen von Terraform-Modulen
+* Nutzen von diversen Azure-Technologien
+  * Azure Kubernetes Services
+  * Azure DNS
+  * Azure Storage Account
+* Maintenance von Elasticsearch in Kubernetes
+* Monitoring und Alerting mit Grafana
+* Log-Shipping mit fluentbit
+* Installation und Konfiguration von div. Kubernetes-Tools
+  * Actions-Runner-Controller
+  * Akv2k8s
+  * Descheduler
+  * Flux v2
+  * Instana
+  * Keda
+  * ElasticSearch & Kibana
+  * FluentBit
+  * Grafana
+  * Kafka-Exporter
+  * Nginx
+  * Trivy-Operator
+* Kostenoptimierung
+* Right-Sizing
+* Nutzung von Workload-Identities mit Azure Ressourcen
 
 ## DevOps-Engineer, Finanzdienstleistung, Frankfurt (30 Monate)
 

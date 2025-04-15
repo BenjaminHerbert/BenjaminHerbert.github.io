@@ -5,11 +5,13 @@ tags: [devops,cloud,iac,terraform,java,freelancer,freiberufler,it-beratung,softw
 last_modified_at: 2025-01-25 10:14:00 +0100
 ---
 
-## Benjamin Herbert 
+## Benjamin Herbert - DevOps-Engineer & SRE
 
 Unternehmen, die moderne Software entwickeln, brauchen mehr als nur eine funktionierende Cloud-Umgebung – sie brauchen eine robuste, sichere und automatisierte Plattform, die Entwicklungsteams beschleunigt, Risiken minimiert und den Betrieb vereinfacht.
 
-Mein Fokus: Ich plane, baue und automatisiere Ihre Cloud-Infrastruktur mit Infrastructure as Code (IaC). Ob Entwicklungsplattformen, Kubernetes-Cluster oder unternehmensweite Cloud-Architekturen – ich sorge dafür, dass Ihre Teams effizient arbeiten können und Ihre Systeme stabil, sicher und wartbar bleiben.
+Mein Fokus: 
+
+Ich plane, baue und automatisiere Ihre Cloud-Infrastruktur mit Infrastructure as Code (IaC). Ob Entwicklungsplattformen, Kubernetes-Cluster oder unternehmensweite Cloud-Architekturen – ich sorge dafür, dass Ihre Teams effizient arbeiten können und Ihre Systeme stabil, sicher und wartbar bleiben.
 
 ## Wie ich Sie unterstütze
 
