@@ -25,7 +25,7 @@ den man gerade bearbeitet und nicht die komplette Sammlung aller Tests laufen la
 
 ## Test per Pattern auswählen
 
-Darüber hinaus ist es auch möglich nur Tests auszuführen, deren Name einem bestimmten Muster genügt.
+Darüber hinaus ist es auch möglich, nur Tests auszuführen, deren Name einem bestimmten Muster genügt.
 Hält man sich beispielsweise an eine Namenskonvention, bei der man allen Integrations-Tests
 den Suffix IT gibt, so kann man mit dem Befehl
 
@@ -40,4 +40,3 @@ Natürlich sollte man alle Tests ausführen, um vor unerwünschten Seiteneffekte
 Die hier gezeigte Methode ist aber hilfreich, wenn man nur eine Auswahl von Tests ausführen will.
 Wenn man genau eingrenzen kann, welche Tests man ausführen muss, kann man so sehr
 schnell Feedback erhalten.
-

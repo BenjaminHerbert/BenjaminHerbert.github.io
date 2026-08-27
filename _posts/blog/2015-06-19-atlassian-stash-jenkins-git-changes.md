@@ -12,11 +12,11 @@ author: benjamin_herbert
 
 In den meisten meiner Projekte wird derzeit Git als Sourcecodeverwaltung genutzt.
 Dabei gibt es unterschiedliche Repositories. Im Open-Source-Bereich wird oft
-GitHub eingesetzt, privat nutze ich sowohl GitHub als auch BitBucket.
+GitHub eingesetzt, privat nutze ich sowohl GitHub als auch Bitbucket.
 Erfahrungen mit gitorious habe ich ebenfalls gemacht, daran erinnere ich mich aber
 nur ungern zurück.
 
-Der Continuous-Integration-Server Jenkins bietet über Plugins die Möglichkeit
+Der Continuous-Integration-Server Jenkins bietet über Plugins die Möglichkeit,
 SCM-Änderungen mit Hyperlinks zu versehen. Für Git ist dafür das
 [Git Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin) zuständig.
 
@@ -36,8 +36,8 @@ unterstützt werden und ein anderer Job existieren, dessen Verbindung zu einem
 solchen Repository-Browser bereits vollständig konfiguriert wurde.
 </cite>
 
-Wie genau die Auswahl (Auto) bei "Repository Browser" funktioniert hat sich mir nicht erschlossen,
-laut der Beschreibung der Hilfe, sollte es in Jobs schauen, die das selbe Repository
+Wie genau die Auswahl (Auto) bei "Repository Browser" funktioniert, hat sich mir nicht erschlossen,
+laut der Beschreibung der Hilfe sollte es in Jobs schauen, die dasselbe Repository
 verwenden.
 
 [Anscheinend ist das nur für CVS implementiert](http://jenkins-ci.361315.n4.nabble.com/How-does-the-Auto-repository-browser-work-tp388654p388660.html).
@@ -56,7 +56,7 @@ Dann wählt man unter Repository Browser "stash" aus und trägt bei URL die URL 
 (ohne /browse).
 
 Danach sind in Jenkins bei den jeweiligen Commits und bei Änderungen/Changes jeweils
-die Details verlinkt und ein Link zu Stash mit dem man die genauen Änderungen aufrufen kann.
+die Details verlinkt und ein Link zu Stash, mit dem man die genauen Änderungen aufrufen kann.
 
 ## Noch etwas mehr Technik
 
@@ -71,4 +71,3 @@ und implementiert die Methoden:
 Diese Methoden stellen den Hyperlink zum Diff sowie den Hyperlink zu der Datei selbst bereit.
 
 [Quellcode von Stash.java](https://github.com/jenkinsci/git-plugin/blob/3e65e1b7540ba49bcfda55fb770adfb3135a979a/src/main/java/hudson/plugins/git/browser/Stash.java)
-

@@ -34,7 +34,7 @@ EOF
 ```
 
 Erklärung des Einzeilers
-`az keyvault secret set`: Dieser Befehl legt ein Secret im Azure Key Vault an. Wir geben den Namen des Key Vaults, 
+`az keyvault secret set`: Dieser Befehl legt ein Secret im Azure Key Vault an. Wir geben den Namen des Key Vaults,
 die Azure Subscription und den Secret-Namen an.
 
 Heredoc und JSON-Struktur: Mithilfe von `cat <<EOF ... EOF` fügen wir das mehrzeilige Secret im JSON-Format ein. Die JSON-Struktur erlaubt eine flexible Erweiterung, falls später mehr Einträge hinzugefügt werden sollen.
@@ -53,4 +53,4 @@ Der openssl rand-Befehl ist äußerst nützlich, um kryptographisch sichere Zufa
 **Vermeidung von Klartext in Skripten**: Secrets sollten nicht im Klartext in Skripten oder Umgebungsvariablen gespeichert werden, und die Verwendung von Heredoc und der direkten Speicherung im Key Vault sorgt für Sicherheit in diesem Prozess.
 
 ### Fazit
-Mit einem einfachen Bash-Einzeiler und dem richtigen Einsatz von Heredoc und OpenSSL kannst du sicherstellen, dass deine mehrzeiligen Secrets sicher in Azure Key Vault abgelegt werden. So bleibt die Cloud-Infrastruktur sicher und übersichtlich, ohne dass sensitive Informationen in den Skripten selbst gespeichert werden müssen.
+Mit einem einfachen Bash-Einzeiler und dem richtigen Einsatz von Heredoc und OpenSSL kannst du sicherstellen, dass deine mehrzeiligen Secrets sicher in Azure Key Vault abgelegt werden. So bleibt die Cloud-Infrastruktur sicher und übersichtlich, ohne dass sensible Informationen in den Skripten selbst gespeichert werden müssen.

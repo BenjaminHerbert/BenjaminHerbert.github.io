@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Maven - Einzelnen Test in Multimodule-Projekt ausführen"
+title: "Maven - Einzelnen Test in Multimodul-Projekt ausführen"
 modified:
 categories: blog
 excerpt:
@@ -11,7 +11,7 @@ author: benjamin_herbert
 # Maven
 
 Die [Maven-Surefire-Anleitung](http://maven.apache.org/surefire/maven-surefire-plugin/examples/single-test.html) gibt an,
-wie man einen einzelnen Unit-Test ausführt: 
+wie man einen einzelnen Unit-Test ausführt:
 ```
 mvn -Dtest=TestCircle test
 ```
@@ -22,8 +22,6 @@ Das hilft in einem Multimodul-Projekt aber nur bedingt weiter, denn dort bricht 
 
 Um Abhilfe zu schaffen, muss man sogenannte **Advanced Reactor Options** setzen und das Modul angeben, in dem sich der Test befindet:
 
-    mvn -Dtest=TestCircle --pl test-modul test
- 
+    mvn -Dtest=TestCircle -pl test-modul test
+
 Dann wird nur der entsprechende Test ausgeführt.
-
-

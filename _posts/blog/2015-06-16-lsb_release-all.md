@@ -9,7 +9,7 @@ author: benjamin_herbert
 ---
 # Informationen aus /etc/os-release
 
-Sucht man datei-basierte Information über die Linux-Version kann man diese in `/etc/os-release`finden.
+Sucht man datei-basierte Information über die Linux-Version, kann man diese in `/etc/os-release` finden.
 Das Ergebnis ist eine mit Newline getrennte Liste von KEY=VALUE-Paaren, wie sie beispielsweise auch in Environment zu finden ist.
 
 Mehr Information darüber gibt die manpage `man os-release`.
@@ -24,7 +24,7 @@ Die möglichen Optionen des Befehls findet man heraus mit:
     > lsb_release -help
     Usage: lsb_release [options]
     Usage: lsb_release [options]
-    
+
     Options:
       -h, --help         show this help message and exit
       -v, --version      show LSB modules this system supports
@@ -39,7 +39,7 @@ Die möglichen Optionen des Befehls findet man heraus mit:
 Mit `lsb_release -a` wird am meisten Information ausgegeben und man findet recht
 genau heraus, mit welchem System man es zu tun hat.
 
-Hier eine *Beispielsausgabe* zweier Systeme:
+Hier eine *Beispielausgabe* zweier Systeme:
 
     > lsb_release -a
     No LSB modules are available.
@@ -67,5 +67,3 @@ Danach ergibt der Aufruf von `lsb_release -a` zum Beispiel:
     Description:	Fedora release 20 (Heisenbug)
     Release:	20
     Codename:	Heisenbug
-
-

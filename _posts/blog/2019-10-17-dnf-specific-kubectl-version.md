@@ -11,9 +11,9 @@ author: benjamin_herbert
 ## Kubernetes Client - kubectl
 
 Für die Arbeit mit Kubernetes ist es wichtig, dass die Versionen von Master und
-Client zusammenpassen. Je nach Version des Masters kann es notwendig sein,
-Kubernetes unterstützt, dass der Client eine Minor-Version höher ist, als der
-Master.
+Client zusammenpassen. Je nach Version des Masters kann es notwendig sein, eine
+bestimmte kubectl-Version zu installieren. Kubernetes unterstützt, dass der Client
+eine Minor-Version höher ist als der Master.
 
 D.h., läuft der Master auf 1.14, kann man kubectl in Version 1.15 nutzen. Mit der
 Client-Version 1.16 bewegt man sich aber außerhalb des "skews".
@@ -37,7 +37,7 @@ Der folgende Befehl lässt alle Versionen von kubectl in den Repositories anzeig
  dnf --showduplicates list kubectl
 ```
 
-Aus der dann ausgegeben Liste, kann man sich mit
+Aus der dann ausgegebenen Liste kann man sich mit
 
 ```
 dnf install kubectl-1.14.8-0
@@ -45,4 +45,3 @@ dnf install kubectl-1.14.8-0
 die passende Kubernetes-Client-Version installieren.
 
 [1]: https://github.com/kubernetes/community/blob/master/contributors/design-proposals/release/versioning.md#supported-releases-and-component-skew
-

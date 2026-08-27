@@ -14,7 +14,7 @@ ob die geänderten Dateien auch fehlerfrei sind. Sonst kann nginx nicht starten.
 
 Dazu leistet der Befehl `nginx -t` gute Dienste.
 
-Das gibt dann, wenn die Konfiguration _korrekt_ ist sowas aus:
+Das gibt dann, wenn die Konfiguration _korrekt_ ist, sowas aus:
 
 ```bash
 # nginx -t
@@ -30,7 +30,7 @@ nginx: [emerg] unknown directive "-dfhg" in /etc/nginx/nginx.conf:4
 nginx: configuration file /etc/nginx/nginx.conf test failed
 ```
 
-Das hilft nicht immer gleich den Fehler zu finden, vor allem wenn andere Dateien mit _include_ eingebunden sind.
+Das hilft nicht immer, gleich den Fehler zu finden, vor allem wenn andere Dateien mit _include_ eingebunden sind.
 Aber auch hier gibt es eine kleine Hilfestellung.
 
 ## Welche Konfigurationsdateien sind denn gerade aktiv?
@@ -38,7 +38,7 @@ Aber auch hier gibt es eine kleine Hilfestellung.
 nginx bietet neben dem Schalter `-t` auch noch den Schalter `-T`.
 Dann wird zusammen mit der Prüfung auch noch die komplette Konfiguration ausgegeben.
 
-Filtert man dann zum Beispiel nach 'configuration file' bekommt man eine schöne Liste aller aktiven Konfigurationsdateien:
+Filtert man dann zum Beispiel nach 'configuration file', bekommt man eine schöne Liste aller aktiven Konfigurationsdateien:
 
 ```bash
 # nginx -T  | grep -F 'configuration file'
@@ -69,7 +69,3 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 # configuration file /etc/nginx/sites-enabled/example.com.conf:
 ...
 ```
-
-
-
-

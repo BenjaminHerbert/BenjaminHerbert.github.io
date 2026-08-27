@@ -12,7 +12,7 @@ author: benjamin_herbert
 ## Docker Timezones
 
 Vor einiger Zeit hatte ich den Fall, dass innerhalb eines Docker-Containers die falsche Zeitzone eingestellt war. Das hat damit zu tun, dass
-Docker Containern eine eigene "interne" Zeitzone haben und nicht die des Host-OS nehmen.
+Docker Container eine eigene "interne" Zeitzone haben und nicht die des Host-OS nehmen.
 
 {% highlight console %}
 > date
@@ -28,7 +28,7 @@ Mon Jan 11 18:22:54 UTC 2016
 
 Wie man sieht, ist der Unterschied eine Stunde, im Container ist anscheinend UTC als <strike>Zeitzone</strike> Standard konfiguriert (Coordinated Universal Time). Auf dem Host jedoch CET (Central European Time) als Zeitzone.
 
-In Linux-Containern lässt sich das relativ leicht beheben indem man die Datei `/etc/localtime` aus dem Host in den Container mounted. Das gleicht die Zeitzone des Containers an die des Hosts an. Da der Container nicht auf die Datei schreiben können soll, fügt man `:ro` hinter den Aufruf an: `-v /etc/localtime:/etc/localtime:ro`. (Das `ro` steht für *read-only*)
+In Linux-Containern lässt sich das relativ leicht beheben, indem man die Datei `/etc/localtime` aus dem Host in den Container mountet. Das gleicht die Zeitzone des Containers an die des Hosts an. Da der Container nicht auf die Datei schreiben können soll, fügt man `:ro` hinter den Aufruf an: `-v /etc/localtime:/etc/localtime:ro`. (Das `ro` steht für *read-only*)
 Der Aufruf wäre dann für das obige Beispiel:
 
 {% highlight console %}
@@ -38,23 +38,23 @@ Mon Jan 11 19:23:08 CET 2016
 
 Siehe hierzu auch: https://github.com/docker/docker/issues/3359
 
-Das ganze wurde noch etwas vertrackter, da innerhalb des Containers dann eine JVM immernoch die falsche Zeit angezeigt hat.
+Das Ganze wurde noch etwas vertrackter, da innerhalb des Containers dann eine JVM immer noch die falsche Zeit angezeigt hat.
 
 ## JVM Timezones
 
 Der Container hatte zwar die richtige Zeitzone, aber innerhalb der JVM wurde nicht die richtige Zeitzone aufgelöst.
 
-Oracle hatte hierzu wenig hilfreiche Information https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/time-zone.html
+Oracle hatte hierzu wenig hilfreiche Information: https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/time-zone.html
 
-Der offizielle Lösungsweg ist, ein JVM-Argument `user.timezone` mitzugeben und dort den richtigen Eintrag anzugeben. Beispielsweise für Deutschland: `Europe/Berlin`:
+Der offizielle Lösungsweg ist, ein JVM-Argument `user.timezone` mitzugeben und dort den richtigen Eintrag anzugeben. Beispielsweise für Deutschland: `Europe/Berlin`.
 
-Es gibt jedoch auch einen einfacheren Weg, denn die Umgebungsvariable TZ wird ebenfalls ausgewertet. Diese kann einfach beim Start eines Containers mitgegegeben werden:
+Es gibt jedoch auch einen einfacheren Weg, denn die Umgebungsvariable TZ wird ebenfalls ausgewertet. Diese kann einfach beim Start eines Containers mitgegeben werden:
 
 {% highlight console %}
-docker run -e TZ="Europe/Berlin" ... 
+docker run -e TZ="Europe/Berlin" ...
 {% endhighlight %}
 
-Das hat für unseren Anwendungsfall ausgereicht um innerhalb der JVM die korrekte Default TimeZone zu erhalten.
+Das hat für unseren Anwendungsfall ausgereicht, um innerhalb der JVM die korrekte Default TimeZone zu erhalten.
 
 ### Selbst ausprobieren
 
@@ -76,7 +76,7 @@ Starten wir einen Docker-Container und rufen dann unser kleines Programm auf:
 > docker run --rm -v /etc/localtime:/etc/localtime:ro -v $(pwd):/tz -it openjdk:8-jdk /bin/sh -c "cd /tz && javac TZ.java  && java TZ && rm TZ.class"
 JVM: Etc/UTC
 {% endhighlight %}
-Wie man sieht ist der Container ist auf UTC gesetzt.
+Wie man sieht, ist der Container auf UTC gesetzt.
 
 ### Zeitzone über Environment-Variable TZ setzen
 
@@ -86,9 +86,9 @@ Setzen wir eine Zeitzone mit `-e TZ=Europe/Berlin`
 JVM: Europe/Berlin
 {% endhighlight %}
 
-Das Ergebnis ist wie gewünscht _Europe/Berlin_
+Das Ergebnis ist wie gewünscht _Europe/Berlin_.
 
-Setzen wir eine nicht existierend Zeitzone als TZ:
+Setzen wir eine nicht existierende Zeitzone als TZ:
 {% highlight console %}
 > docker run --rm -v /etc/localtime:/etc/localtime:ro -e TZ=FUU -v $(pwd):/tz -it openjdk:8-jdk /bin/sh -c "cd /tz && javac TZ.java  && java TZ && rm TZ.class"
 JVM: GMT
@@ -96,13 +96,13 @@ JVM: GMT
 
 ### user.timezone
 
-Nutzen wir das Property user.timezone erhalten wir folgendes Ergebnis
+Nutzen wir das Property user.timezone, erhalten wir folgendes Ergebnis:
 {% highlight console %}
 > docker run --rm -v /etc/localtime:/etc/localtime:ro -v $(pwd):/tz -it openjdk:8-jdk /bin/sh -c "cd /tz && javac TZ.java  && java -Duser.timezone=Europe/Berlin TZ && rm TZ.class"
 JVM: Europe/Berlin
 {% endhighlight %}
 
-Interessanterweise ist es egal ob man einen ungültigen TZ-Wert mitgibt, wie man im nächsten Abschnitt sieht.
+Interessanterweise ist es egal, ob man einen ungültigen TZ-Wert mitgibt, wie man im nächsten Abschnitt sieht.
 
 ### user.timezone und ungültiger TZ-Wert
 {% highlight console %}
@@ -126,7 +126,7 @@ JVM: GMT
 {% endhighlight %}
 
 ## Fazit
-Die Grundeinstellung für Container ist UTC. Die Zeitzone kann man durch Umgebungsvariablen und durch Properties ändern. 
+Die Grundeinstellung für Container ist UTC. Die Zeitzone kann man durch Umgebungsvariablen und durch Properties ändern.
 
 Wenn _user.timezone_ gesetzt ist, wird es auch ausgewertet. Das heißt: setzt man die Umgebungsvariable TZ und _user.timezone_, so hat TZ keinen Einfluss.
 
@@ -137,7 +137,4 @@ Wenn user.timezone fehlerhaft ist, wird das als GMT interpretiert.
 
 Das hier ist eine Untersuchung, wie man im Container die Zeitzone korrekt setzen kann und wie sich das im Zusammenspiel mit der JVM verhält.
 
-* Ich empfehle UTC zu nutzen.* - das muss ich hier nochmals wiederholen. Hintergründe gibt es unter anderem in diesem Artikel: http://yellerapp.com/posts/2015-01-12-the-worst-server-setup-you-can-make.html
-
-
-
+*Ich empfehle, UTC zu nutzen.* - das muss ich hier nochmals wiederholen. Hintergründe gibt es unter anderem in diesem Artikel: http://yellerapp.com/posts/2015-01-12-the-worst-server-setup-you-can-make.html

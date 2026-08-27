@@ -10,7 +10,7 @@ author: benjamin_herbert
 
 # Kubuntu - Dual-Monitor einrichten
 
-Nach einiger Zeit habe ich mich endlich entschieden welchen zweiten Monitor ich
+Nach einiger Zeit habe ich mich endlich entschieden, welchen zweiten Monitor ich
 mir zulege. Die Wahl ist auf den [Samsung SyncMaster SA850D](http://goo.gl/pxN26p)
 gefallen.
 
@@ -20,8 +20,8 @@ kein Dual-Monitor-Betrieb mehr möglich.
 
 Das Programm *xrandr* kann hier helfen.
 
-Der Aufruf von ```xrandr``` ohne Parameter hilft zu Information über die installierten
-Monitore:
+Der Aufruf von ```xrandr``` ohne Parameter gibt Information über die installierten
+Monitore aus:
 
     > xrandr
     Screen 0: minimum 320 x 200, current 4240 x 1440, maximum 8192 x 8192
@@ -56,7 +56,7 @@ Monitore:
        640x480        75.0     72.8     66.7     60.0
        720x400        70.1
 
-Hier sieht man, zwei Monitore, DVI-0 und VGA-0.
+Hier sieht man zwei Monitore, DVI-0 und VGA-0.
 
 Bei mir steht der VGA-0 Monitor rechts und der andere links. Mit `xrandr` kann
 man dies nun konfigurieren:

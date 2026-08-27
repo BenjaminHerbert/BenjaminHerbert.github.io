@@ -8,10 +8,10 @@ tags: [linux]
 author: benjamin_herbert
 ---
 
-`ls` ist eines der am häufigsten benutzen Befehle unter Linux. In der Grundform
+`ls` ist eines der am häufigsten benutzten Befehle unter Linux. In der Grundform
 listet `ls` lediglich die im aktuellen Verzeichnis enthaltenen Dateien und Verzeichnisse auf.
-Es wird sonst keinerlei Information angezeigt. Ebenfalls werden Inhalte, die mit *.* beginnen
-ebenfalls nicht angezeigt. Mit `ls <Verzeichnis>` listet man den Inhalt von <Verzeichnis> auf.
+Es wird sonst keinerlei Information angezeigt. Ebenfalls werden Inhalte, die mit *.* beginnen,
+ebenfalls nicht angezeigt. Mit `ls <Verzeichnis>` listet man den Inhalt von `<Verzeichnis>` auf.
 
 ## Ausführliche Information mit -l
 Mit der Option `-l` gibt ls eine Vielzahl an Information aus. Dabei bedeuten die Spalten:
@@ -27,16 +27,13 @@ Mit der Option `-l` gibt ls eine Vielzahl an Information aus. Dabei bedeuten die
 * Besitzer
 * Besitzer-Gruppe
 * Dateigröße
-* Datun wann die Datei zuletzt geändert wurde
+* Datum, wann die Datei zuletzt geändert wurde
 * Name der Datei/des Verzeichnisses
 
 ## Umgekehrte Reihenfolge
 
 Mit der Option `ls -r` kann man die Reihenfolge umdrehen.
 
-## Information über einzelne Verzeichnisse anlegen.
+## Information über einzelne Verzeichnisse anzeigen
 Ruft man beispielsweise `ls -l /tmp` auf, so wird der Inhalt von /tmp angezeigt.
 Will man stattdessen lediglich die Information über /tmp als Verzeichnis ausgegeben haben, so hilft hier der Parameter -d weiter.
-
-
-

@@ -12,10 +12,10 @@ author: benjamin_herbert
 ## Kurzbeschreibung
 
 Mit _OpenSSH Certificate Authentication_ hat man eine handhabbare Lösung, mit der
-man nicht mehr Schlüssel/Keys zwischen Systemen herum kopieren muss. Stattdessen
+man nicht mehr Schlüssel/Keys zwischen Systemen herumkopieren muss. Stattdessen
 signiert die Certificate Authority die Client-Zertifikate.
 
-Das signierte Zertifikat enthält die Information für wen und wo das Zertifikat
+Das signierte Zertifikat enthält die Information, für wen und wo das Zertifikat
 gültig ist.
 
 Mit der CA wird dann beim Einloggen untersucht, ob die Signatur valide ist und ob
