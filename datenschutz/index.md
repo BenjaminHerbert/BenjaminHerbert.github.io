@@ -59,8 +59,8 @@ modified: 2019-05-23T12:00:00
 <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist die:</p>
 
 <p>IT-Beratung - Benjamin Herbert</p>
-<p>Lenaustr. 95</p>
-<p>60318 Frankfurt</p>
+<p>Wolfsgangstr. 24</p>
+<p>60322 Frankfurt</p>
 <p>Deutschland</p>
 <p>Tel.: 0163 8377921</p>
 <p>E-Mail: benjamin@herbert.cc</p>
@@ -255,5 +255,3 @@ Vor einer Bereitstellung personenbezogener Daten durch den Betroffenen muss sich
 
 <p>Diese Datenschutzerklärung wurde durch den Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft für Datenschutz GmbH, die als <a href="https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter/">Externer Datenschutzbeauftragter Ingolstadt</a> tätig ist, in Kooperation mit dem <a href="https://www.wbs-law.de/it-recht/datenschutzrecht/">IT- und Datenschutzrecht Anwalt Christian Solmecke</a> erstellt.
 </p>
-
-
