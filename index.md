@@ -1,17 +1,28 @@
 ---
 layout: page
-title: Zeitgemäße, professionelle Softwareentwicklung
+title: Platform Engineering & Kubernetes-Beratung (AKS)
+description: Freiberuflicher Platform Engineer aus Frankfurt am Main – Kubernetes- und AKS-Beratung, GitOps, Terraform und CI/CD für Plattform-Teams. Remote in DE und EU.
 tags: [devops,cloud,iac,terraform,java,freelancer,freiberufler,it-beratung,software,ci,cd,cloud,aks]
 last_modified_at: 2025-01-25 10:14:00 +0100
 ---
 
-## DevOps-Engineer & SRE
+**Remote (DE/EU) · Basis Frankfurt am Main · Freiberuflich**
+
+## Platform Engineering, Kubernetes & AKS
 
 Unternehmen, die moderne Software entwickeln, brauchen mehr als nur eine funktionierende Cloud-Umgebung – sie brauchen eine robuste, sichere und automatisierte Plattform, die Entwicklungsteams beschleunigt, Risiken minimiert und den Betrieb vereinfacht.
 
 Mein Fokus:
 
 Ich plane, baue und automatisiere Ihre Cloud-Infrastruktur mit Infrastructure as Code (IaC). Ob Entwicklungsplattformen, Kubernetes-Cluster oder unternehmensweite Cloud-Architekturen – ich sorge dafür, dass Ihre Teams effizient arbeiten können und Ihre Systeme stabil, sicher und wartbar bleiben.
+
+## Ausgewählte Belege
+
+* **Certified Kubernetes Administrator (CKA)** – 2023
+* **AKS-Cluster in einem Platform-Team** aufgesetzt und gepflegt – als Grundlage für die Microservice-Entwicklung mehrerer Teams
+* **GitOps- und Plattform-Werkzeuge im Einsatz**: ArgoCD, Crossplane, Cert-Manager, External Secrets Operator, AKS Auto-Upgrades & Maintenance
+
+Mehr dazu im [Portfolio]({{ site.url }}/portfolio/).
 
 ## Wie ich Sie unterstütze
 
@@ -22,7 +33,7 @@ Ich plane, baue und automatisiere Ihre Cloud-Infrastruktur mit Infrastructure as
 * Sicherheit und Compliance – Zero-Trust, Secret Management, Policy-as-Code
 * Kostenoptimierung & Skalierung – Effiziente Ressourcennutzung, bedarfsgerechte Skalierung und Cloud-Kostenkontrolle
 
-## Technologien & Expertise 
+## Technologien & Expertise
 
 Mit über 20 Jahren Erfahrung in Softwareentwicklung (insbesondere Java) und DevOps-Themen unterstütze ich Unternehmen bei der Transformation in die Cloud.
 
@@ -52,31 +63,26 @@ Ich arbeite **remote** und unterstütze Unternehmen, die nachhaltige, sichere un
 
 Kontaktieren Sie mich per E-Mail – ich freue mich über Anfragen von Unternehmen
 
-## Kontakt:
+## Aus dem Blog: Kubernetes & Cloud
+
+{% assign shown = 0 %}
+<ul class="post-list">
+{% for post in site.posts %}{% if shown < 5 %}{% if post.tags contains 'kubernetes' or post.tags contains 'cloud' or post.tags contains 'azure' or post.tags contains 'docker' %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%B %Y" }}</time></span></a></article></li>
+{% assign shown = shown | plus: 1 %}{% endif %}{% endif %}{% endfor %}
+</ul>
+
+
+## Kontakt
 
 {% include address.html %}
 E-Mail: {% include mail.html %}
 
-Ich freue mich über Ihre Anfrage per E-Mail, bitte sehen Sie von Telefonanrufen ab.
-
-Als Freiberufler und Berater bin ich oft bei Kunden vor Ort im Einsatz und muss dort
-ungestört arbeiten können.
+Am schnellsten erreichen Sie mich per E-Mail. Telefonate gerne nach kurzer
+Terminabstimmung – als Freiberufler bin ich oft bei Kunden im Einsatz und muss
+dort ungestört arbeiten können.
 
 Ihr
 Benjamin Herbert
 
-PS:
-
-Liebe Vermittler und Agenturen:
-
-- keine Kettengeschäfte
-- keine Anrufe
-- ich biete und fordere Transparenz und Ehrlichkeit
-
-## Neuste Blogeinträge:
-
-<ul class="post-list">
-{% for post in site.posts limit:10 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>
+<small>Hinweise für [Vermittler und Agenturen]({{ site.url }}/fuer-vermittler/).</small>

@@ -63,7 +63,7 @@ modified: 2019-05-23T12:00:00
 <p>60322 Frankfurt</p>
 <p>Deutschland</p>
 <p>Tel.: 0163 8377921</p>
-<p>E-Mail: benjamin@herbert.cc</p>
+<p>E-Mail: <a href="mailto:mail@herbert.cc">mail@herbert.cc</a></p>
 <p>Website: www.herbert.cc</p>
 
 <h4>3. Erfassung von allgemeinen Daten und Informationen</h4>
