@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DevOps und Platform Engineering & Kubernetes-Beratung (AKS)
+title: DevOps und Platform Engineering & Kubernetes-Beratung
 description: Freiberuflicher Platform Engineer aus Frankfurt am Main - Kubernetes, GitOps, Cloud, Infrastructure as Code und CI/CD für Plattform-Teams. Remote in DE und EU.
 tags: [devops,cloud,iac,terraform,java,freelancer,freiberufler,it-beratung,software,ci,cd,aks,eks]
 last_modified_at: 2025-01-25 10:14:00 +0100
