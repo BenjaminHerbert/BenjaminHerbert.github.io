@@ -9,7 +9,7 @@ share: true
 
 * Diplom Informatiker - TU Darmstadt - Abschluss 2009
 * Certified Kubernetes Administrator (CKA) - 2023
-* [AWS Certified Solutions Architect – Associate](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-01-10&ci=AWS00228802) (Januar 2017)
+* [AWS Certified Solutions Architect - Associate](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-01-10&ci=AWS00228802) (Januar 2017)
 
 # Weiterbildung
 
@@ -24,7 +24,7 @@ share: true
 ## Development Infrastructure, Cybersecurity, (laufendes Engagement)
 
 Herr Herbert betreut die Entwicklungsinfrastruktur
- 
+
 Tätigkeiten und Themen:
 
 * ArgoCD
@@ -119,7 +119,7 @@ Seine Tätigkeit und Themen umfassten:
 * Infrastructure as Code von u.a. AKS, DNS, Netzwerk mit Terraform in Azure-Cloud
 * Entwicklung und Pflege von Helm-Templates für Microservices
 * Entwicklung und Weiterentwicklung von Azure Functions
-   
+
 ### Technologien/Methoden
 
 Kubernetes, Docker, rkt, Azure Container Registry, Azure DevOps, Azure Storage, Azure DNS, DevOps, Git, GitOps, Flux/FluxCD, Prometheus, Mendix, HAProxy, Nginx, Terraform, Velero, Puppet, Foreman, Helm, Zabbix, SealedSecrets, CentOS 7, IntelliJ IDEA, Go, Jenkins
@@ -128,7 +128,7 @@ Kubernetes, Docker, rkt, Azure Container Registry, Azure DevOps, Azure Storage, 
 
 Herr Herbert arbeitete als Softwareentwickler im Teilprojekt des Multiprojekts IT-
 Zielbild, welches die Schlussnotenverarbeitung aus der Orderverarbeitung herauslösen soll.
- 
+
 Ziel des Teilprojekts ist es, die alte Host-basierte Anwendung in
 eine moderne Microservice-basierte Architektur auf den Java-Stack zu überführen.
 Zu den Aufgaben zählten neben Entwurf und Programmierung des Microservices
@@ -141,12 +141,12 @@ Seine Tätigkeit umfasste:
 * Konzeption und Programmierung von Java-Komponenten im Spring Boot Framework
 * Umsetzung von Enterprise Integration Patterns mit Spring Integration
 * Implementierung eines Microservices zur Verarbeitung von Schlussnoten im Spring Boot-Framework
-* Kommunikation mit Host-Systemen über ESB und IBM MQ 
+* Kommunikation mit Host-Systemen über ESB und IBM MQ
 * Entwurf und Implementierung von Schemata zur Kommunikation mit auf dem Host-System verbleibenden Komponenten
 * Entwurf eines einheitlichen Schemas zur Repräsentation der Schlussnoteninformation, die von verschiedenen Börsen im FIX-Format geliefert wird.
 * Konzeption und Erstellung von Integrationstests der Anwendung mit IBM MQ und Oracle DB mit Docker Compose
 * Konzeption und Umsetzung der Akzeptanztests mit dem Gauge-Framework innerhalb der Gitlab-CI-Pipeline
-* Parallelisierung der Tests über verschiedene Branches 
+* Parallelisierung der Tests über verschiedene Branches
 * Erstellen von Ansible-Skripten zum Deployment der Anwendung in den Umgebungen Test, Staging und Produktion
 * Erstellung und Pflege der Build-Pipelines in GitLab
 
@@ -168,11 +168,11 @@ Seine Tätigkeit umfasste:
 * Mitarbeit im verteilten Scrum-Team (DE/HU)
 * Konzeption und Programmierung von Java-Komponenten im Spring Boot Framework
 * Implementierung eines Microservices zur Verarbeitung von Schlussnoten im Spring Boot-Framework
-* Kommunikation mit Host-Systemen über ESB und IBM MQ 
+* Kommunikation mit Host-Systemen über ESB und IBM MQ
 * Entwurf und Implementierung von Schemata zur Kommunikation mit auf dem Host-System verbleibenden Komponenten
 * Entwurf eines einheitlichen Schemas zur Repräsentation der Schlussnoteninformation, die von verschiedenen Börsen im FIX-Format geliefert wird.
 * Konzeption und Erstellung von Integrationstests für Kafka Streaming Pipelines mit Docker Compose
-* Konzeption und Umsetzung eines Proof-of-Concepts zur Verarbeitung von Schlussnoten in Apache Kafka 
+* Konzeption und Umsetzung eines Proof-of-Concepts zur Verarbeitung von Schlussnoten in Apache Kafka
 * Aufbau von Integrationstest mit Docker Compose
 * Analyse und Erstellen von Ansible-Skripten zum Deployment der Anwendung in den Umgebungen Test, Staging und Produktion
 * Konzeption und Aufbau eines Proof-of-Concepts für Continuous-Delivery von Microservices mit Kubernetes
@@ -185,7 +185,7 @@ IBM MQ, Oracle DB, Apache Kafka, Scrum, Kubernetes
 
 ## DevOps Engineer - Build und Deployment - Finanzdienstleistungen (9 Monate)
 
-Die Aufgaben umfassten: 
+Die Aufgaben umfassten:
 * die Migration von rkt-Containern zu Docker-Containern
 * die Migration von fleet-Orchestrierung zu Kubernetes
 * Aufbau und Pflege von Deployment-Pipelines für Spring-Boot basierte Software
@@ -306,7 +306,7 @@ Java, Java EE 5, Groovy, XML, Lucene, Terrier, Web services, Apache Axis, SOAP, 
 
 ## Beratung/Implementierung Suchfunktion - REXVINI (08/2010 - 11/2010)
 
-Herr Herbert arbeitete als Experte für Suchtechnologien in der Planung und Entwicklung der Suchfunktion für eine Internet-Weindatenbank. 
+Herr Herbert arbeitete als Experte für Suchtechnologien in der Planung und Entwicklung der Suchfunktion für eine Internet-Weindatenbank.
 
 Seine Arbeit umfasste:
 

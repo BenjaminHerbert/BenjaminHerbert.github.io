@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Two-Factor Authentification für Google, Dropbox, Github und co."
+title: "Two-Factor Authentication für Google, Dropbox, GitHub und Co."
 modified:
 categories: blog
 excerpt:

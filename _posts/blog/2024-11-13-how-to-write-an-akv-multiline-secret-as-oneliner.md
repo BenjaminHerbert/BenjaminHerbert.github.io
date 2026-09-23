@@ -9,7 +9,7 @@ redirect_from:
   - /blog/how-to-write-an-akv-multiline-secret-as-onliner/
 ---
 
-## Mehrzeilige Secrets in Azure per Bash und Heredoc anlegen – als Einzeiler
+## Mehrzeilige Secrets in Azure per Bash und Heredoc anlegen - als Einzeiler
 In der Cloud ist es oft notwendig, sensible Informationen wie Secrets, API-Schlüssel oder Zertifikate sicher zu speichern. Azure Key Vault bietet eine einfache Möglichkeit, solche Daten zu verwalten. Aber was, wenn das Secret aus mehreren Zeilen besteht und du nicht den Umweg über eine separate Datei nehmen willst, um zu vermeiden, dass der geheime Wert temporär in einer Datei gespeichert wird?
 
 In diesem Beitrag zeige ich, wie du mithilfe eines Bash-Einzeilers und Heredoc ein mehrzeiliges Secret in Azure Key Vault ablegst. Wir generieren das Secret direkt in der Shell und laden es sicher hoch.
@@ -39,7 +39,7 @@ die Azure Subscription und den Secret-Namen an.
 
 Heredoc und JSON-Struktur: Mithilfe von `cat <<EOF ... EOF` fügen wir das mehrzeilige Secret im JSON-Format ein. Die JSON-Struktur erlaubt eine flexible Erweiterung, falls später mehr Einträge hinzugefügt werden sollen.
 
-`openssl rand -hex 25`: Dieser Befehl generiert einen zufälligen hexadezimalen String mit 25 Bytes Länge, was 50 Zeichen entspricht. openssl rand ist ein Teil der OpenSSL-Bibliothek und wird häufig verwendet, um sichere Zufallswerte für Passwörter oder Secrets zu generieren. Das -hex-Flag sorgt dafür, dass der Wert hexadezimal ist – ideal für sichere Schlüssel.
+`openssl rand -hex 25`: Dieser Befehl generiert einen zufälligen hexadezimalen String mit 25 Bytes Länge, was 50 Zeichen entspricht. openssl rand ist ein Teil der OpenSSL-Bibliothek und wird häufig verwendet, um sichere Zufallswerte für Passwörter oder Secrets zu generieren. Das -hex-Flag sorgt dafür, dass der Wert hexadezimal ist - ideal für sichere Schlüssel.
 
 ### Warum openssl rand?
 

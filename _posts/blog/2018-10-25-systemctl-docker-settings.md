@@ -49,7 +49,7 @@ Will man die Einstellung im Drop-in überschreiben, so muss man den Wert erst zu
 
 >  If the empty string is assigned to this option, the list of commands to start is reset, prior assignments of this option will have no effect.
 >
-> -- Quelle: [man systemd.service](https://www.freedesktop.org/software/systemd/man/systemd.service.html)
+> - Quelle: [man systemd.service](https://www.freedesktop.org/software/systemd/man/systemd.service.html)
 
 
 Will man also die Einstellungen überschreiben, so erstellt man folgendes Drop-In _/etc/systemd/system/docker.service.d/custom.conf_:
@@ -68,4 +68,4 @@ Für Systeme ohne systemd kann auch die _daemon.json_ Datei genutzt werden, bei 
 
 > On systems that use systemd to start the Docker daemon, -H is already set, so you cannot use the hosts key in daemon.json to add listening addresses.
 >
-> -- Quelle: https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-configuration-file
+> - Quelle: https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-configuration-file

@@ -1,43 +1,36 @@
 ---
 layout: page
-title: Platform Engineering & Kubernetes-Beratung (AKS)
-description: Freiberuflicher Platform Engineer aus Frankfurt am Main – Kubernetes- und AKS-Beratung, GitOps, Terraform und CI/CD für Plattform-Teams. Remote in DE und EU.
-tags: [devops,cloud,iac,terraform,java,freelancer,freiberufler,it-beratung,software,ci,cd,cloud,aks]
+title: DevOps und Platform Engineering & Kubernetes-Beratung (AKS)
+description: Freiberuflicher Platform Engineer aus Frankfurt am Main - Kubernetes, GitOps, Cloud, Infrastructure as Code und CI/CD für Plattform-Teams. Remote in DE und EU.
+tags: [devops,cloud,iac,terraform,java,freelancer,freiberufler,it-beratung,software,ci,cd,aks,eks]
 last_modified_at: 2025-01-25 10:14:00 +0100
 ---
 
-**Remote (DE/EU) · Basis Frankfurt am Main · Freiberuflich**
+## Platform Engineering, Kubernetes
 
-## Platform Engineering, Kubernetes & AKS
-
-Unternehmen, die moderne Software entwickeln, brauchen mehr als nur eine funktionierende Cloud-Umgebung – sie brauchen eine robuste, sichere und automatisierte Plattform, die Entwicklungsteams beschleunigt, Risiken minimiert und den Betrieb vereinfacht.
+Unternehmen, die moderne Software entwickeln, brauchen mehr als nur eine funktionierende Cloud-Umgebung - sie brauchen eine robuste, sichere und automatisierte Plattform, die Entwicklungsteams beschleunigt, Risiken minimiert und den Betrieb vereinfacht.
 
 Mein Fokus:
 
-Ich plane, baue und automatisiere Ihre Cloud-Infrastruktur mit Infrastructure as Code (IaC). Ob Entwicklungsplattformen, Kubernetes-Cluster oder unternehmensweite Cloud-Architekturen – ich sorge dafür, dass Ihre Teams effizient arbeiten können und Ihre Systeme stabil, sicher und wartbar bleiben.
-
-## Ausgewählte Belege
-
-* **Certified Kubernetes Administrator (CKA)** – 2023
-* **AKS-Cluster in einem Platform-Team** aufgesetzt und gepflegt – als Grundlage für die Microservice-Entwicklung mehrerer Teams
-* **GitOps- und Plattform-Werkzeuge im Einsatz**: ArgoCD, Crossplane, Cert-Manager, External Secrets Operator, AKS Auto-Upgrades & Maintenance
+Ich plane, baue und automatisiere Ihre Cloud-Infrastruktur mit Infrastructure as Code (IaC). Ob Entwicklungsplattformen, Kubernetes-Cluster oder unternehmensweite Cloud-Architekturen - ich sorge dafür, dass Ihre Teams effizient arbeiten können und Ihre Systeme stabil, sicher und wartbar bleiben.
 
 Mehr dazu im [Portfolio]({{ site.url }}/portfolio/).
 
 ## Wie ich Sie unterstütze
 
-* Planung und Aufbau Ihrer Cloud-Architektur – Sicher, skalierbar und kosteneffizient
-* Automatisierung mit IaC – Terraform, Terragrunt & GitOps für reproduzierbare Umgebungen
-* Entwicklungsplattformen und CI/CD – Stabile und sichere Umgebungen für Entwicklerteams
-* Kubernetes & Container-Orchestrierung – AKS, EKS oder On-Prem mit GitOps und Observability
-* Sicherheit und Compliance – Zero-Trust, Secret Management, Policy-as-Code
-* Kostenoptimierung & Skalierung – Effiziente Ressourcennutzung, bedarfsgerechte Skalierung und Cloud-Kostenkontrolle
+* Planung und Aufbau Ihrer Cloud-Architektur - Sicher, skalierbar und kosteneffizient
+* Automatisierung mit IaC - OpenTofu/Terraform, Terragrunt & GitOps für reproduzierbare Umgebungen
+* Entwicklungsplattformen und CI/CD - Stabile und sichere Umgebungen für Entwicklerteams
+* Kubernetes & Container-Orchestrierung - Kubernetes auf AKS, EKS oder On-Premise als strategische Plattform
+* Montoring - Grafana, Prometheus und generelle Observability
+* Sicherheit und Compliance - Zero-Trust, Secret Management, Policy-as-Code (z.B. OPA)
+* Kostenoptimierung & Skalierung - Effiziente Ressourcennutzung, bedarfsgerechte Skalierung und Cloud-Kostenkontrolle
 
 ## Technologien & Expertise
 
 Mit über 20 Jahren Erfahrung in Softwareentwicklung (insbesondere Java) und DevOps-Themen unterstütze ich Unternehmen bei der Transformation in die Cloud.
 
-* **Kubernetes** (AKS, EKS, k3s, On-Prem)
+* **Kubernetes** (z.B. AKS, EKS, k3s, On-Prem)
 * **Cloud & Hybrid Infrastrukturen** (Azure, AWS)
 * **Infrastructure as Code** (OpenTofu, Terraform & Terragrunt, Ansible)
 * **Sicherheits- und Compliance-Automatisierung** (Secret Management, Security Scanning, Policy-as-Code)
@@ -48,10 +41,6 @@ Mit über 20 Jahren Erfahrung in Softwareentwicklung (insbesondere Java) und Dev
 
 Mein Schwerpunkt liegt dabei auf [Kubernetes](https://www.herbert.cc/tags/#kubernetes), DevOps, Infrastructure-as-Code (IaC) und [Cloud](https://www.herbert.cc/tags/#cloud).
 
-<div>
- <img src="images/bh.jpg" alt="Foto von Benjamin Herbert"/>
-</div>
-
 Als Anhänger der [Software-Craftsmanship-Bewegung](http://manifesto.softwarecraftsmanship.org/#/de)
 handle ich nach dem Motto:
 
@@ -61,7 +50,7 @@ handle ich nach dem Motto:
 
 Ich arbeite **remote** und unterstütze Unternehmen, die nachhaltige, sichere und automatisierte Cloud-Infrastrukturen aufbauen wollen.
 
-Kontaktieren Sie mich per E-Mail – ich freue mich über Anfragen von Unternehmen
+Kontaktieren Sie mich per E-Mail - ich freue mich über Anfragen von Unternehmen.
 
 ## Aus dem Blog: Kubernetes & Cloud
 
@@ -79,8 +68,7 @@ Kontaktieren Sie mich per E-Mail – ich freue mich über Anfragen von Unternehm
 E-Mail: {% include mail.html %}
 
 Am schnellsten erreichen Sie mich per E-Mail. Telefonate gerne nach kurzer
-Terminabstimmung – als Freiberufler bin ich oft bei Kunden im Einsatz und muss
-dort ungestört arbeiten können.
+Terminabstimmung.
 
 Ihr
 Benjamin Herbert

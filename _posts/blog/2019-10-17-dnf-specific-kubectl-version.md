@@ -26,7 +26,7 @@ Client-Version 1.16 bewegt man sich aber außerhalb des "skews".
 > the master by up to one minor version. For example, a v1.3 master should work
 > with v1.1, v1.2, and v1.3 nodes, and should work with v1.2, v1.3, and v1.4 clients.
 >
-> -- <cite>[Kubernetes Release Documentation][1]</cite>
+> - <cite>[Kubernetes Release Documentation][1]</cite>
 
 
 ## Alle Versionen von kubectl anzeigen
